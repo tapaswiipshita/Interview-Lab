@@ -1,0 +1,78 @@
+# ==============================================================================
+# Git Ignore Configuration - AI Interview Evaluation System
+# ==============================================================================
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# IDEs & Text Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Temporary Audio & Upload Files
+*.webm
+*.wav
+*.mp3
+*.ogg
+*.m4a
+*.tmp
+*.bak
+
+# Dataset & Benchmark Artifacts (excluded from repo)
+dataset/
+scratch/
+benchmark_results.csv
+
+# Archive Backups
+*.zip

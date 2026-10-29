@@ -1,0 +1,3634 @@
+{
+  "AI": {
+    "easy": [
+      [
+        "BFS vs DFS Graph Traversal",
+        "What is the key difference between Breadth-First Search (BFS) and Depth-First Search (DFS) in graph traversal?",
+        [
+          "Breadth-First Search",
+          "Depth-First Search",
+          "Queue",
+          "Stack",
+          "Shortest Path",
+          "Memory Complexity"
+        ]
+      ],
+      [
+        "A* Search Algorithm",
+        "How does the A* search algorithm use heuristic evaluation to find the optimal path in a graph?",
+        [
+          "A* Search",
+          "Heuristic Function",
+          "Admissibility",
+          "Consistency",
+          "Open List",
+          "Path Cost"
+        ]
+      ],
+      [
+        "Expert Systems Architecture",
+        "What are the core components of an Expert System, and how does the inference engine operate?",
+        [
+          "Knowledge Base",
+          "Inference Engine",
+          "User Interface",
+          "Production Rules",
+          "Working Memory",
+          "Domain Expert"
+        ]
+      ],
+      [
+        "Knowledge Representation",
+        "Why is knowledge representation critical in AI, and what are its common symbolic forms?",
+        [
+          "Ontology",
+          "Semantic Networks",
+          "Frames",
+          "First-Order Logic",
+          "Expressiveness",
+          "Reasoning"
+        ]
+      ],
+      [
+        "Turing Test",
+        "What is the Turing Test, and what are its primary limitations in measuring machine intelligence?",
+        [
+          "Turing Test",
+          "Imitation Game",
+          "Natural Language Processing",
+          "Human Evaluator",
+          "Searle's Chinese Room",
+          "Behavioral Intelligence"
+        ]
+      ],
+      [
+        "Intelligent Agent Architectures",
+        "What defines an intelligent agent in AI, and how do sensors and actuators interact with the environment?",
+        [
+          "Percept Sequence",
+          "Agent Function",
+          "Environment",
+          "Actuators",
+          "Sensors",
+          "Rationality"
+        ]
+      ],
+      [
+        "Fuzzy Logic vs Crisp Logic",
+        "What is the main distinction between fuzzy logic and traditional crisp boolean logic?",
+        [
+          "Fuzzy Logic",
+          "Membership Function",
+          "Linguistic Variables",
+          "Crisp Logic",
+          "Degree of Truth",
+          "Fuzzification"
+        ]
+      ],
+      [
+        "Propositional Logic Basics",
+        "How do propositional logic connectives work to evaluate truth values in a knowledge base?",
+        [
+          "Proposition",
+          "Truth Table",
+          "Logical Connectives",
+          "Soundness",
+          "Completeness",
+          "Entailment"
+        ]
+      ],
+      [
+        "Alpha-Beta Pruning",
+        "How does Alpha-Beta pruning reduce the number of evaluated nodes in a game tree search?",
+        [
+          "Alpha-Beta Pruning",
+          "Minimax",
+          "Branching Factor",
+          "Alpha Cutoff",
+          "Beta Cutoff",
+          "Search Space"
+        ]
+      ],
+      [
+        "Constraint Satisfaction Problems",
+        "What are the core components of a Constraint Satisfaction Problem (CSP)?",
+        [
+          "Variables",
+          "Domains",
+          "Constraints",
+          "Backtracking Search",
+          "Arc Consistency",
+          "Constraint Propagation"
+        ]
+      ],
+      [
+        "Minimax Algorithm",
+        "How does the Minimax algorithm decide optimal moves in two-player zero-sum games?",
+        [
+          "Minimax",
+          "Max Player",
+          "Min Player",
+          "Evaluation Function",
+          "Game Tree",
+          "Terminal State"
+        ]
+      ],
+      [
+        "Hill Climbing Search",
+        "What is Hill Climbing search, and why does it suffer from local optima and plateaus?",
+        [
+          "Hill Climbing",
+          "Local Optima",
+          "Plateaus",
+          "Ridges",
+          "Greedy Search",
+          "Objective Function"
+        ]
+      ],
+      [
+        "Rule-Based Systems",
+        "How do rule-based systems execute production rules using pattern matching?",
+        [
+          "If-Then Rules",
+          "Forward Chaining",
+          "Backward Chaining",
+          "Conflict Resolution",
+          "Pattern Matching",
+          "Expert System"
+        ]
+      ],
+      [
+        "Forward Chaining vs Backward Chaining",
+        "When would you choose forward chaining over backward chaining in logical inference?",
+        [
+          "Forward Chaining",
+          "Backward Chaining",
+          "Data-Driven",
+          "Goal-Driven",
+          "Inference Engine",
+          "Working Memory"
+        ]
+      ],
+      [
+        "State Space Search",
+        "How is a problem defined in terms of state space search in classic AI?",
+        [
+          "State Space",
+          "Initial State",
+          "Goal Test",
+          "Transition Model",
+          "Path Cost",
+          "Branching Factor"
+        ]
+      ],
+      [
+        "Goal-Based vs Utility-Based Agents",
+        "What is the key advantage of utility-based agents over goal-based agents?",
+        [
+          "Goal-Based Agent",
+          "Utility-Based Agent",
+          "Utility Function",
+          "State Evaluation",
+          "Trade-offs",
+          "Preferences"
+        ]
+      ],
+      [
+        "Admissible Heuristics",
+        "What condition must a heuristic satisfy to be considered admissible in A* search?",
+        [
+          "Admissible Heuristic",
+          "Never Overestimates",
+          "A* Optimality",
+          "True Cost",
+          "Tree Search",
+          "Consistency"
+        ]
+      ],
+      [
+        "Consistent Heuristics",
+        "Why does heuristic consistency guarantee optimal paths in A* graph search without re-opening nodes?",
+        [
+          "Consistent Heuristic",
+          "Monotonicity",
+          "Triangle Inequality",
+          "Graph Search",
+          "A* Optimality",
+          "Heuristic Value"
+        ]
+      ],
+      [
+        "Semantic Networks",
+        "How do semantic networks represent relationships and inheritance between concepts?",
+        [
+          "Nodes",
+          "Edges",
+          "Is-A Relationship",
+          "Has-A Relationship",
+          "Inheritance",
+          "Graph Representation"
+        ]
+      ],
+      [
+        "First-Order Logic",
+        "How does First-Order Logic extend Propositional Logic to express objects and relations?",
+        [
+          "Predicates",
+          "Quantifiers",
+          "Variables",
+          "Functions",
+          "Atomic Sentences",
+          "Expressiveness"
+        ]
+      ],
+      [
+        "Ontologies in AI",
+        "What role do ontologies play in knowledge representation and data interoperability?",
+        [
+          "Ontology",
+          "Taxonomy",
+          "Concepts",
+          "Relationships",
+          "OWL Standard",
+          "Knowledge Graph"
+        ]
+      ],
+      [
+        "Depth-Limited Search",
+        "How does Depth-Limited Search address the infinite path problem of standard Depth-First Search?",
+        [
+          "Depth Limit",
+          "Depth-First Search",
+          "Cutoff",
+          "Incompleteness",
+          "Memory Efficiency",
+          "Tree Depth"
+        ]
+      ],
+      [
+        "Greedy Best-First Search",
+        "Why can Greedy Best-First Search get trapped in sub-optimal solutions despite using heuristics?",
+        [
+          "Greedy Search",
+          "Heuristic Evaluation",
+          "Best-First",
+          "Incompleteness",
+          "Non-Optimal Path",
+          "Frontier"
+        ]
+      ],
+      [
+        "Wumpus World Reasoning",
+        "How does an agent use logical deduction to safely navigate the Wumpus World environment?",
+        [
+          "Wumpus World",
+          "Knowledge Base",
+          "Logical Deduction",
+          "Perception",
+          "Safety Inference",
+          "Grid Environment"
+        ]
+      ],
+      [
+        "Uniform Cost Search",
+        "How does Uniform Cost Search guarantee finding the cheapest path in a graph with varied edge weights?",
+        [
+          "Uniform Cost Search",
+          "Dijkstra Algorithm",
+          "Path Cost g(n)",
+          "Priority Queue",
+          "Optimal Path",
+          "Step Cost"
+        ]
+      ]
+    ],
+    "medium": [
+      [
+        "Knowledge Graph Entity Disambiguation",
+        "How do knowledge graphs resolve ambiguous entity references using contextual context and embeddings?",
+        [
+          "Knowledge Graph",
+          "Entity Disambiguation",
+          "Named Entity Recognition",
+          "Graph Embedding",
+          "Knowledge Base",
+          "Contextual Matching"
+        ]
+      ],
+      [
+        "STRIPS & PDDL Automated Planning",
+        "How do STRIPS and PDDL represent actions with preconditions and effects in automated planning?",
+        [
+          "STRIPS",
+          "PDDL",
+          "Preconditions",
+          "Effects",
+          "Action Schema",
+          "State Transitions"
+        ]
+      ],
+      [
+        "NLP Tokenization and Stemming",
+        "Compare tokenization, stemming, and lemmatization in text processing pipelines.",
+        [
+          "Tokenization",
+          "Stemming",
+          "Lemmatization",
+          "Vocabulary",
+          "Porter Stemmer",
+          "Text Normalization"
+        ]
+      ],
+      [
+        "TF-IDF Vectorization",
+        "Explain the mathematical intuition behind Term Frequency-Inverse Document Frequency (TF-IDF).",
+        [
+          "TF-IDF",
+          "Term Frequency",
+          "Inverse Document Frequency",
+          "Vector Space Model",
+          "Word Weighting",
+          "Document Frequency"
+        ]
+      ],
+      [
+        "Markov Decision Processes (MDP)",
+        "How do Markov Decision Processes model decision-making under uncertainty?",
+        [
+          "MDP",
+          "States",
+          "Actions",
+          "Transition Probability",
+          "Reward Function",
+          "Discount Factor"
+        ]
+      ],
+      [
+        "Q-Learning & Bellman Equation",
+        "How does Q-Learning update state-action values using the Bellman Optimality Equation?",
+        [
+          "Q-Learning",
+          "Bellman Optimality Equation",
+          "Q-Table",
+          "Temporal Difference",
+          "Exploration vs Exploitation",
+          "Off-Policy"
+        ]
+      ],
+      [
+        "Bayesian Networks",
+        "How do Bayesian Networks encode conditional independence among random variables using directed graphs?",
+        [
+          "Bayesian Network",
+          "Directed Acyclic Graph",
+          "Conditional Independence",
+          "Prior Probability",
+          "Posterior Probability",
+          "Causal Nodes"
+        ]
+      ],
+      [
+        "Genetic Algorithms Operators",
+        "How do selection, crossover, and mutation drive search in Genetic Algorithms?",
+        [
+          "Genetic Algorithm",
+          "Chromosome",
+          "Crossover",
+          "Mutation",
+          "Fitness Function",
+          "Selection Operator"
+        ]
+      ],
+      [
+        "Multi-Agent Coordination",
+        "What protocols enable multi-agent systems to reach consensus and coordinate decentralized actions?",
+        [
+          "Multi-Agent System",
+          "Coordination Protocol",
+          "Negotiation",
+          "Consensus",
+          "Distributed AI",
+          "Communication Channel"
+        ]
+      ],
+      [
+        "Automated Theorem Proving",
+        "How does resolution refutation work in automated theorem proving for First-Order Logic?",
+        [
+          "Theorem Proving",
+          "Resolution Refutation",
+          "Clausal Form",
+          "Unification",
+          "Soundness",
+          "Subsumption"
+        ]
+      ],
+      [
+        "Speech Recognition Pipelines",
+        "What are the essential components of a modern automatic speech recognition pipeline?",
+        [
+          "Acoustic Model",
+          "Language Model",
+          "Phonemes",
+          "Mel-Frequency Cepstral Coefficients",
+          "Decoder",
+          "Speech-to-Text"
+        ]
+      ],
+      [
+        "Vector Space Models in IR",
+        "How do Vector Space Models compute query-document relevance using high-dimensional cosine similarity?",
+        [
+          "Vector Space Model",
+          "Cosine Similarity",
+          "TF-IDF Matrix",
+          "Document Indexing",
+          "High Dimensionality",
+          "Query Vector"
+        ]
+      ],
+      [
+        "Latent Semantic Analysis (LSA)",
+        "How does Singular Value Decomposition enable Latent Semantic Analysis to uncover latent topics?",
+        [
+          "Latent Semantic Analysis",
+          "Singular Value Decomposition",
+          "Term-Document Matrix",
+          "Semantic Space",
+          "Dimensionality Reduction",
+          "Synonymy"
+        ]
+      ],
+      [
+        "Hidden Markov Models & Viterbi",
+        "How does the Viterbi algorithm find the most likely hidden state sequence in an HMM?",
+        [
+          "Hidden Markov Model",
+          "Emission Probability",
+          "Transition Matrix",
+          "Viterbi Algorithm",
+          "Hidden States",
+          "Observed Sequence"
+        ]
+      ],
+      [
+        "Bayesian Inference & Bayes Rule",
+        "How is Bayes' Rule applied to update belief probabilities given observational evidence?",
+        [
+          "Bayes' Rule",
+          "Prior",
+          "Likelihood",
+          "Posterior",
+          "Evidence",
+          "Marginal Probability"
+        ]
+      ],
+      [
+        "Particle Filtering State Estimation",
+        "How does particle filtering maintain probability distributions for non-linear state estimation?",
+        [
+          "Particle Filter",
+          "Sequential Monte Carlo",
+          "Importance Weighting",
+          "Resampling",
+          "State Estimation",
+          "Non-Linear Dynamics"
+        ]
+      ],
+      [
+        "Monte Carlo Tree Search (MCTS)",
+        "Explain the four phases of Monte Carlo Tree Search: Selection, Expansion, Simulation, and Backpropagation.",
+        [
+          "Monte Carlo Tree Search",
+          "Selection",
+          "Expansion",
+          "Simulation",
+          "Backpropagation",
+          "UCT Formula"
+        ]
+      ],
+      [
+        "Particle Swarm Optimization",
+        "How do individual velocities and global best positions update particle trajectories in PSO?",
+        [
+          "Particle Swarm Optimization",
+          "Velocity Vector",
+          "Personal Best",
+          "Global Best",
+          "Inertia Weight",
+          "Swarm Intelligence"
+        ]
+      ],
+      [
+        "Game Tree Heuristic Evaluation",
+        "How do evaluation functions estimate position scores when full game tree traversal is impossible?",
+        [
+          "Evaluation Function",
+          "Board Features",
+          "Piece Value",
+          "Positional Weight",
+          "Minimax Search",
+          "Static Evaluation"
+        ]
+      ],
+      [
+        "Expectation-Maximization for GMM",
+        "How do the E-step and M-step iteratively optimize parameters in Gaussian Mixture Models?",
+        [
+          "Expectation-Maximization",
+          "Gaussian Mixture Model",
+          "E-Step",
+          "M-Step",
+          "Log-Likelihood",
+          "Latent Variables"
+        ]
+      ],
+      [
+        "Sentiment Analysis Approaches",
+        "Compare lexicon-based sentiment analysis with supervised machine learning approaches.",
+        [
+          "Sentiment Analysis",
+          "Lexicon-Based",
+          "VADER",
+          "Supervised Classification",
+          "Polarity Score",
+          "Aspect-Based Sentiment"
+        ]
+      ],
+      [
+        "Dialogue Systems Architecture",
+        "How do Intent Recognition and Slot Filling operate together in task-oriented dialogue systems?",
+        [
+          "Intent Recognition",
+          "Slot Filling",
+          "Dialogue Manager",
+          "NLU Engine",
+          "Natural Language Generation",
+          "Context Tracking"
+        ]
+      ],
+      [
+        "Word Embeddings (Word2Vec/GloVe)",
+        "How do Word2Vec and GloVe capture semantic vector relationships compared to one-hot encoding?",
+        [
+          "Word Embeddings",
+          "Word2Vec",
+          "Skip-gram",
+          "Continuous Bag of Words",
+          "GloVe",
+          "Vector Space"
+        ]
+      ],
+      [
+        "Knowledge Graph Embeddings (TransE)",
+        "How does TransE model relationships as translation vectors between head and tail entities?",
+        [
+          "TransE",
+          "Head Entity",
+          "Relation",
+          "Tail Entity",
+          "Translational Distance",
+          "Embedding Space"
+        ]
+      ],
+      [
+        "Value Iteration vs Policy Iteration",
+        "What are the structural differences and convergence properties between Value Iteration and Policy Iteration?",
+        [
+          "Value Iteration",
+          "Policy Iteration",
+          "Policy Evaluation",
+          "Policy Improvement",
+          "Dynamic Programming",
+          "Convergence Rate"
+        ]
+      ]
+    ],
+    "hard": [
+      [
+        "Transformer Self-Attention Math",
+        "Detail the mathematical formulation of scaled dot-product self-attention in Transformer models.",
+        [
+          "Self-Attention",
+          "Query Matrix",
+          "Key Matrix",
+          "Value Matrix",
+          "Scaled Dot-Product",
+          "Softmax Function"
+        ]
+      ],
+      [
+        "Multi-Head Attention Mechanism",
+        "Why does multi-head attention split queries, keys, and values into multiple projection subspaces?",
+        [
+          "Multi-Head Attention",
+          "Linear Projections",
+          "Attention Heads",
+          "Concatenation",
+          "Representation Subspaces",
+          "Dimensionality"
+        ]
+      ],
+      [
+        "RLHF Alignment Pipeline",
+        "Explain the full Reinforcement Learning from Human Feedback (RLHF) pipeline used to align LLMs.",
+        [
+          "RLHF",
+          "Reward Model",
+          "Proximal Policy Optimization",
+          "Human Preference Data",
+          "Kullback-Leibler Penalty",
+          "Supervised Fine-Tuning"
+        ]
+      ],
+      [
+        "Deep Q-Networks (DQN) Stability",
+        "How do target networks and experience replay buffers stabilize training in Deep Q-Networks?",
+        [
+          "DQN",
+          "Target Network",
+          "Experience Replay Buffer",
+          "Overestimation Bias",
+          "Loss Function",
+          "Temporal Difference Error"
+        ]
+      ],
+      [
+        "PPO Clipped Objective Function",
+        "Explain how the PPO clipped surrogate objective prevents destructive policy updates.",
+        [
+          "PPO",
+          "Clipped Surrogate Objective",
+          "Probability Ratio",
+          "Epsilon Clipping",
+          "Policy Gradient",
+          "Trust Region"
+        ]
+      ],
+      [
+        "GAN Loss & Mode Collapse",
+        "What causes mode collapse in Generative Adversarial Networks, and how do Wasserstein GANs address it?",
+        [
+          "Generative Adversarial Networks",
+          "Generator",
+          "Discriminator",
+          "Minimax Loss",
+          "Mode Collapse",
+          "Wasserstein Loss"
+        ]
+      ],
+      [
+        "Variational Autoencoders (VAE) Math",
+        "Derive the Evidence Lower Bound (ELBO) and explain the reparameterization trick in VAEs.",
+        [
+          "VAE",
+          "Evidence Lower Bound",
+          "Kullback-Leibler Divergence",
+          "Reparameterization Trick",
+          "Encoder",
+          "Decoder"
+        ]
+      ],
+      [
+        "Constitutional AI & Guardrails",
+        "How does Constitutional AI implement self-correction and critique to enforce safety guardrails?",
+        [
+          "Constitutional AI",
+          "Self-Correction",
+          "AI Feedback",
+          "Critique and Revision",
+          "Safety Guardrails",
+          "Harm Minimization"
+        ]
+      ],
+      [
+        "Multi-Agent Nash Equilibrium",
+        "How is a Nash Equilibrium computed in multi-agent non-cooperative games, and what are its limits?",
+        [
+          "Nash Equilibrium",
+          "Best Response",
+          "Payoff Matrix",
+          "Mixed Strategy",
+          "Strategic Game",
+          "Pareto Efficiency"
+        ]
+      ],
+      [
+        "Retrieval-Augmented Generation (RAG)",
+        "Analyze the architectural trade-offs between chunking strategies, vector indexing, and retrieval latency in RAG systems.",
+        [
+          "Retrieval-Augmented Generation",
+          "Vector Indexing",
+          "Chunking Strategy",
+          "Embedding Model",
+          "Context Window",
+          "Hallucination Reduction"
+        ]
+      ],
+      [
+        "Neural Architecture Search (NAS)",
+        "Compare RL-based, evolutionary, and differentiable strategies for Neural Architecture Search.",
+        [
+          "Neural Architecture Search",
+          "Search Space",
+          "Search Strategy",
+          "Performance Estimation",
+          "Reinforcement Learning NAS",
+          "Differentiable NAS"
+        ]
+      ],
+      [
+        "Contrastive Learning (SimCLR/CLIP)",
+        "How does InfoNCE loss maximize mutual information between positive augmented pairs in contrastive learning?",
+        [
+          "Contrastive Learning",
+          "SimCLR",
+          "CLIP",
+          "InfoNCE Loss",
+          "Positive/Negative Pairs",
+          "Shared Embedding Space"
+        ]
+      ],
+      [
+        "SHAP vs LIME Explainability",
+        "Compare the theoretical foundation of SHAP (Shapley values) with LIME's local surrogate approximations.",
+        [
+          "SHAP",
+          "LIME",
+          "Shapley Values",
+          "Local Surrogate Model",
+          "Feature Attribution",
+          "Additive Feature Importance"
+        ]
+      ],
+      [
+        "Diffusion Models Mathematical Framework",
+        "Explain the forward noise process and reverse denoising SDEs in diffusion models.",
+        [
+          "Diffusion Models",
+          "Forward Process",
+          "Reverse Process",
+          "Stochastic Differential Equations",
+          "Score Matching",
+          "Noise Schedule"
+        ]
+      ],
+      [
+        "Rotary Position Embeddings (RoPE)",
+        "How do Rotary Position Embeddings preserve relative positional information through complex rotation matrices?",
+        [
+          "Rotary Position Embedding",
+          "Relative Position",
+          "Rotation Matrix",
+          "Complex Space",
+          "Context Length Extension",
+          "Attention Score"
+        ]
+      ],
+      [
+        "LLM Quantization (GPTQ/AWQ/GGUF)",
+        "Explain how post-training quantization methods like GPTQ and AWQ minimize perplexity degradation in 4-bit precision.",
+        [
+          "Quantization",
+          "GPTQ",
+          "AWQ",
+          "Weight Precision",
+          "INT4/INT8",
+          "Perplexity Loss"
+        ]
+      ],
+      [
+        "Knowledge Distillation Loss",
+        "Formulate the combined cross-entropy and soft-target KL-divergence loss function in knowledge distillation.",
+        [
+          "Knowledge Distillation",
+          "Teacher Model",
+          "Student Model",
+          "Temperature Softmax",
+          "Distillation Loss",
+          "Cross-Entropy"
+        ]
+      ],
+      [
+        "Low-Rank Adaptation (LoRA) Math",
+        "How does LoRA decompose weight updates into low-rank matrices A and B during parameter-efficient fine-tuning?",
+        [
+          "LoRA",
+          "Low-Rank Matrices",
+          "Rank Parameter r",
+          "Freeze Base Weights",
+          "Matrix Factorization",
+          "Fine-Tuning Efficiency"
+        ]
+      ],
+      [
+        "Graph Neural Networks Over-smoothing",
+        "What causes over-smoothing in deep Graph Neural Networks, and how do residual connections help?",
+        [
+          "Graph Neural Network",
+          "Message Passing",
+          "Node Embeddings",
+          "Over-smoothing",
+          "Graph Convolutional Layer",
+          "Adjacency Matrix"
+        ]
+      ],
+      [
+        "Deep RL Intrinsic Curiosity",
+        "How does curiosity-driven exploration compute intrinsic rewards based on environment state prediction error?",
+        [
+          "Intrinsic Curiosity",
+          "Prediction Error",
+          "Exploration Reward",
+          "Feature Space",
+          "Sparse Rewards",
+          "Environment Dynamics"
+        ]
+      ],
+      [
+        "Multi-Modal Fusion Architectures",
+        "Compare early, late, and cross-attention fusion strategies for integrating visual and text modalities.",
+        [
+          "Multi-Modal Fusion",
+          "Early Fusion",
+          "Late Fusion",
+          "Cross-Attention",
+          "Modality Alignment",
+          "Joint Embedding"
+        ]
+      ],
+      [
+        "RRT* Motion Planning Algorithm",
+        "How does the rewiring step in RRT* guarantee asymptotic optimality in high-dimensional motion planning?",
+        [
+          "RRT*",
+          "Rapidly-Exploring Random Trees",
+          "Asymptotic Optimality",
+          "Rewiring Step",
+          "State Space",
+          "Path Optimization"
+        ]
+      ],
+      [
+        "Actor-Critic Architectures (A2C/A3C)",
+        "Explain how the Advantage function reduces policy gradient variance in Actor-Critic architectures.",
+        [
+          "Actor-Critic",
+          "Actor Policy",
+          "Critic Value Function",
+          "Advantage Function",
+          "Asynchronous Training",
+          "Synchronous A2C"
+        ]
+      ],
+      [
+        "Spectral Clustering & Graph Laplacian",
+        "Derive the normalized Graph Laplacian and explain how its eigenvectors define cluster cuts.",
+        [
+          "Spectral Clustering",
+          "Graph Laplacian",
+          "Eigenvalues",
+          "Eigenvectors",
+          "Degree Matrix",
+          "Normalized Cut"
+        ]
+      ],
+      [
+        "FlashAttention Computational Optimization",
+        "How does FlashAttention optimize GPU SRAM tiling and IO bandwidth to achieve exact attention with lower memory footprint?",
+        [
+          "FlashAttention",
+          "SRAM Tiling",
+          "IO-Awareness",
+          "Recomputation",
+          "Memory Bandwidth",
+          "O(N^2) Complexity Mitigation"
+        ]
+      ]
+    ]
+  },
+  "ML": {
+    "easy": [
+      [
+        "Supervised vs Unsupervised Learning",
+        "What is the primary difference between supervised and unsupervised machine learning?",
+        [
+          "Supervised Learning",
+          "Unsupervised Learning",
+          "Labeled Data",
+          "Unlabeled Data",
+          "Classification/Regression",
+          "Clustering"
+        ]
+      ],
+      [
+        "Overfitting vs Underfitting",
+        "How can you identify whether a machine learning model is suffering from overfitting or underfitting?",
+        [
+          "Overfitting",
+          "Underfitting",
+          "High Variance",
+          "High Bias",
+          "Generalization Error",
+          "Training Set Performance"
+        ]
+      ],
+      [
+        "Bias-Variance Tradeoff",
+        "What is the bias-variance tradeoff, and how does model complexity affect both components?",
+        [
+          "Bias",
+          "Variance",
+          "Irreducible Error",
+          "Model Complexity",
+          "Tradeoff",
+          "Total Error"
+        ]
+      ],
+      [
+        "Linear Regression Assumptions",
+        "What are the key statistical assumptions underlying Ordinary Least Squares linear regression?",
+        [
+          "Linearity",
+          "Independence",
+          "Homoscedasticity",
+          "Normality of Residuals",
+          "No Multicollinearity",
+          "Ordinary Least Squares"
+        ]
+      ],
+      [
+        "Logistic Regression & Sigmoid Function",
+        "How does logistic regression use the sigmoid activation function to output binary class probabilities?",
+        [
+          "Logistic Regression",
+          "Sigmoid Function",
+          "Log Odds",
+          "Decision Threshold",
+          "Binary Classification",
+          "Cross-Entropy Loss"
+        ]
+      ],
+      [
+        "Train/Validation/Test Split",
+        "Why is it crucial to separate data into training, validation, and test sets during model development?",
+        [
+          "Training Set",
+          "Validation Set",
+          "Test Set",
+          "Data Leakage",
+          "Hyperparameter Tuning",
+          "Unseen Evaluation"
+        ]
+      ],
+      [
+        "Precision, Recall, and F1-Score",
+        "How are Precision, Recall, and F1-Score defined, and when would you prioritize Recall over Precision?",
+        [
+          "Precision",
+          "Recall",
+          "F1-Score",
+          "True Positives",
+          "False Positives",
+          "False Negatives"
+        ]
+      ],
+      [
+        "Classification vs Regression",
+        "What distinguishes a classification task from a regression task in machine learning?",
+        [
+          "Classification",
+          "Regression",
+          "Discrete Labels",
+          "Continuous Targets",
+          "Decision Boundary",
+          "Mean Squared Error"
+        ]
+      ],
+      [
+        "Feature Scaling Methods",
+        "What is the difference between Min-Max Normalization and Standardization (Z-score scaling)?",
+        [
+          "Normalization",
+          "Standardization",
+          "Min-Max Scaler",
+          "StandardScaler",
+          "Distance Metrics",
+          "Outlier Sensitivity"
+        ]
+      ],
+      [
+        "K-Nearest Neighbors Algorithm",
+        "How does the K-Nearest Neighbors (KNN) algorithm classify a new data point?",
+        [
+          "K-Nearest Neighbors",
+          "Euclidean Distance",
+          "Hyperparameter K",
+          "Lazy Learner",
+          "Majority Voting",
+          "Non-Parametric"
+        ]
+      ],
+      [
+        "Decision Trees & Gini Impurity",
+        "How do Decision Trees choose split points using Gini Impurity or Information Gain?",
+        [
+          "Decision Tree",
+          "Gini Impurity",
+          "Entropy",
+          "Information Gain",
+          "Splitting Node",
+          "Pruning"
+        ]
+      ],
+      [
+        "Gradient Descent & Learning Rate",
+        "How does Gradient Descent update parameters, and what happens if the learning rate is too high or low?",
+        [
+          "Gradient Descent",
+          "Learning Rate",
+          "Loss Gradient",
+          "Local Minimum",
+          "Convergence",
+          "Step Size"
+        ]
+      ],
+      [
+        "L1 (Lasso) vs L2 (Ridge) Regularization",
+        "What is the key difference in penalty mechanics between L1 (Lasso) and L2 (Ridge) regularization?",
+        [
+          "L1 Regularization",
+          "L2 Regularization",
+          "Lasso",
+          "Ridge",
+          "Feature Selection",
+          "Penalty Term"
+        ]
+      ],
+      [
+        "K-Fold Cross-Validation",
+        "Explain the step-by-step process of K-Fold Cross-Validation and its benefits.",
+        [
+          "K-Fold Cross-Validation",
+          "Folds",
+          "Validation Error",
+          "Variance Reduction",
+          "Model Assessment",
+          "Dataset Splitting"
+        ]
+      ],
+      [
+        "ROC Curve & AUC Score",
+        "What does a Receiver Operating Characteristic (ROC) curve plot, and what does an AUC score of 0.5 indicate?",
+        [
+          "ROC Curve",
+          "Area Under Curve",
+          "True Positive Rate",
+          "False Positive Rate",
+          "Threshold Tuning",
+          "Binary Classifier"
+        ]
+      ],
+      [
+        "Curse of Dimensionality",
+        "What is the Curse of Dimensionality, and why does distance metric reliability degrade in high dimensions?",
+        [
+          "Curse of Dimensionality",
+          "Sparse Feature Space",
+          "Distance Metric Breakdown",
+          "Overfitting Risk",
+          "Dimensionality Reduction",
+          "Sample Density"
+        ]
+      ],
+      [
+        "K-Means Clustering Workflow",
+        "Describe the iterative assignment and update steps of the K-Means clustering algorithm.",
+        [
+          "K-Means",
+          "Centroids",
+          "Within-Cluster Sum of Squares",
+          "Elbow Method",
+          "Iterative Assignment",
+          "Euclidean Distance"
+        ]
+      ],
+      [
+        "Parametric vs Non-Parametric Models",
+        "What characterizes parametric versus non-parametric machine learning models?",
+        [
+          "Parametric Model",
+          "Non-Parametric Model",
+          "Fixed Parameters",
+          "Data-Driven Complexity",
+          "Assumptions",
+          "Scalability"
+        ]
+      ],
+      [
+        "Handling Imbalanced Datasets",
+        "What techniques can be used to handle severe class imbalance in classification datasets?",
+        [
+          "Class Imbalance",
+          "Oversampling",
+          "Undersampling",
+          "SMOTE",
+          "Class Weights",
+          "Evaluation Metrics"
+        ]
+      ],
+      [
+        "Hyperparameters vs Model Parameters",
+        "What is the fundamental difference between hyperparameters and model parameters?",
+        [
+          "Hyperparameters",
+          "Model Parameters",
+          "Weights and Biases",
+          "Grid Search",
+          "Learning Rate",
+          "Training Phase"
+        ]
+      ],
+      [
+        "Loss Function vs Cost Function",
+        "How does a single-sample loss function differ from an aggregated cost function?",
+        [
+          "Loss Function",
+          "Cost Function",
+          "Single Instance Loss",
+          "Dataset Average Cost",
+          "Optimization Objective",
+          "Differentiability"
+        ]
+      ],
+      [
+        "Mean Squared Error vs Mean Absolute Error",
+        "When would you prefer Mean Absolute Error (MAE) over Mean Squared Error (MSE)?",
+        [
+          "Mean Squared Error",
+          "Mean Absolute Error",
+          "Squared Penalties",
+          "Outlier Sensitivity",
+          "L1 vs L2 Loss",
+          "Interpretability"
+        ]
+      ],
+      [
+        "One-Hot vs Label Encoding",
+        "Why can applying Label Encoding to nominal categorical variables create misleading ordinal relationships?",
+        [
+          "One-Hot Encoding",
+          "Label Encoding",
+          "Categorical Variables",
+          "Dummy Variables",
+          "Ordinal Relationship",
+          "Cardinality"
+        ]
+      ],
+      [
+        "Early Stopping Strategy",
+        "How does early stopping work as a regularization technique during neural network training?",
+        [
+          "Early Stopping",
+          "Validation Loss",
+          "Epochs",
+          "Overfitting Prevention",
+          "Patience Parameter",
+          "Checkpointing"
+        ]
+      ],
+      [
+        "Confusion Matrix Structure",
+        "What are True Positives, False Positives, True Negatives, and False Negatives in a confusion matrix?",
+        [
+          "Confusion Matrix",
+          "True Positive",
+          "False Positive",
+          "True Negative",
+          "False Negative",
+          "Metric Calculation"
+        ]
+      ]
+    ],
+    "medium": [
+      [
+        "Random Forest Bagging Mechanics",
+        "How does Random Forest combine Bootstrap Aggregation (bagging) with random feature subspace sampling?",
+        [
+          "Random Forest",
+          "Bagging",
+          "Bootstrap Aggregation",
+          "Subspace Sampling",
+          "Variance Reduction",
+          "Out-of-Bag Error"
+        ]
+      ],
+      [
+        "XGBoost Gradient Tree Boosting",
+        "How does XGBoost optimize decision tree ensembles using first and second-order gradient loss approximations?",
+        [
+          "XGBoost",
+          "Gradient Boosting",
+          "Loss Gradient",
+          "Regularized Trees",
+          "Shrinkage",
+          "Second-Order Gradients"
+        ]
+      ],
+      [
+        "Support Vector Machines & Kernel Trick",
+        "Explain how Support Vector Machines construct optimal hyperplanes using the kernel trick.",
+        [
+          "Support Vector Machine",
+          "Hyperplane",
+          "Margin",
+          "Kernel Trick",
+          "RBF Kernel",
+          "Support Vectors"
+        ]
+      ],
+      [
+        "Principal Component Analysis (PCA)",
+        "How does Principal Component Analysis (PCA) find orthogonal axes that maximize dataset variance?",
+        [
+          "Principal Component Analysis",
+          "Eigenvalues",
+          "Eigenvectors",
+          "Variance Explained",
+          "Covariance Matrix",
+          "Orthogonal Projection"
+        ]
+      ],
+      [
+        "DBSCAN Density-Based Clustering",
+        "How does DBSCAN identify arbitrary-shaped clusters and noise points using Epsilon and MinPoints?",
+        [
+          "DBSCAN",
+          "Epsilon",
+          "MinPoints",
+          "Core Points",
+          "Noise Points",
+          "Arbitrary Shapes"
+        ]
+      ],
+      [
+        "Naive Bayes & Laplace Smoothing",
+        "Why does Naive Bayes assume feature independence, and how does Laplace smoothing prevent zero probabilities?",
+        [
+          "Naive Bayes",
+          "Conditional Independence",
+          "Bayes' Theorem",
+          "Laplace Smoothing",
+          "Zero Frequency Problem",
+          "Prior Probability"
+        ]
+      ],
+      [
+        "Activation Functions (ReLU vs GELU)",
+        "Compare ReLU, LeakyReLU, Softmax, and GELU in terms of gradient flow and non-linearity.",
+        [
+          "ReLU",
+          "GELU",
+          "Softmax",
+          "Dying ReLU",
+          "Smooth Non-linearity",
+          "Gradient Flow"
+        ]
+      ],
+      [
+        "Adam vs AdamW Weight Decay",
+        "Why does AdamW decouple weight decay from gradient updates compared to standard Adam regularization?",
+        [
+          "Adam",
+          "AdamW",
+          "Exponential Moving Average",
+          "Weight Decay Decoupling",
+          "Learning Rate",
+          "Gradient Moments"
+        ]
+      ],
+      [
+        "Bayesian Optimization Tuning",
+        "How does Bayesian Optimization use Gaussian Processes and acquisition functions to search hyperparameter spaces?",
+        [
+          "Bayesian Optimization",
+          "Surrogate Model",
+          "Gaussian Process",
+          "Acquisition Function",
+          "Expected Improvement",
+          "Hyperparameter Search"
+        ]
+      ],
+      [
+        "Precision-Recall AUC vs ROC-AUC",
+        "Why is Precision-Recall AUC more informative than ROC-AUC when evaluating highly imbalanced classification datasets?",
+        [
+          "Precision-Recall Curve",
+          "ROC-AUC",
+          "Imbalanced Classes",
+          "False Positive Rate Impact",
+          "Baseline Precision",
+          "Metric Selection"
+        ]
+      ],
+      [
+        "Recursive Feature Elimination (RFE)",
+        "How does Recursive Feature Elimination select optimal feature subsets using iterative model ranking?",
+        [
+          "Recursive Feature Elimination",
+          "Feature Importance",
+          "Iterative Selection",
+          "Model Coefficients",
+          "Feature Subsets",
+          "Cross-Validation RFE"
+        ]
+      ],
+      [
+        "SMOTE Oversampling Mechanics",
+        "How does SMOTE generate synthetic minority samples using K-nearest neighbor interpolation?",
+        [
+          "SMOTE",
+          "Synthetic Samples",
+          "K-Nearest Neighbors",
+          "Interpolation",
+          "Minority Class",
+          "Overfitting Risk"
+        ]
+      ],
+      [
+        "Ensemble Stacking vs Blending",
+        "What is the structural difference between Stacking and Blending meta-ensembles?",
+        [
+          "Stacking",
+          "Blending",
+          "Meta-Learner",
+          "Base Models",
+          "Holdout Validation",
+          "Out-of-Fold Predictions"
+        ]
+      ],
+      [
+        "Cosine Similarity vs Euclidean Distance",
+        "Compare Cosine Similarity and Euclidean Distance performance when measuring high-dimensional text vectors.",
+        [
+          "Cosine Similarity",
+          "Euclidean Distance",
+          "Vector Magnitude",
+          "Angular Distance",
+          "High Dimensionality",
+          "Normalized Vectors"
+        ]
+      ],
+      [
+        "Transfer Learning Fine-Tuning",
+        "What strategies determine whether to freeze lower layers or fine-tune all weights in pre-trained models?",
+        [
+          "Transfer Learning",
+          "Pre-trained Model",
+          "Feature Extractor",
+          "Fine-Tuning",
+          "Layer Freezing",
+          "Domain Adaptation"
+        ]
+      ],
+      [
+        "Cosine Annealing Scheduler",
+        "How does Cosine Annealing with Warmup improve model convergence in non-convex loss landscapes?",
+        [
+          "Cosine Annealing",
+          "Warmup Epochs",
+          "Minimum Learning Rate",
+          "Cyclic Learning Rate",
+          "Loss Landscape",
+          "Convergence"
+        ]
+      ],
+      [
+        "Batch Normalization vs Layer Normalization",
+        "Why is Batch Normalization suited for Computer Vision while Layer Normalization is preferred for NLP sequences?",
+        [
+          "Batch Normalization",
+          "Layer Normalization",
+          "Mini-batch Statistics",
+          "Feature Dimension",
+          "Internal Covariate Shift",
+          "Sequence Models"
+        ]
+      ],
+      [
+        "Focal Loss for Hard Negative Mining",
+        "How does Focal Loss modify standard cross-entropy loss to focus learning on hard negative examples?",
+        [
+          "Focal Loss",
+          "Modulating Factor",
+          "Gamma Parameter",
+          "Class Imbalance",
+          "Hard Examples",
+          "Cross-Entropy"
+        ]
+      ],
+      [
+        "Covariate Shift vs Concept Drift",
+        "Distinguish between Covariate Shift and Concept Drift in production ML models.",
+        [
+          "Covariate Shift",
+          "Concept Drift",
+          "Data Distribution",
+          "Target Relationship",
+          "Model Retraining",
+          "Data Drift"
+        ]
+      ],
+      [
+        "Linear Discriminant Analysis (LDA)",
+        "How does Linear Discriminant Analysis maximize between-class variance while minimizing within-class variance?",
+        [
+          "Linear Discriminant Analysis",
+          "Between-Class Variance",
+          "Within-Class Variance",
+          "Supervised Projection",
+          "Class Separability",
+          "Eigenvalues"
+        ]
+      ],
+      [
+        "t-SNE vs UMAP Visualization",
+        "Compare t-SNE and UMAP in preserving local versus global data topology during non-linear reduction.",
+        [
+          "t-SNE",
+          "UMAP",
+          "Local Structure",
+          "Global Structure",
+          "High-Dimensional Embeddings",
+          "Non-Linear Mapping"
+        ]
+      ],
+      [
+        "Classification Threshold Optimization",
+        "How do you select an optimal decision threshold using cost matrices and precision-recall trade-offs?",
+        [
+          "Classification Threshold",
+          "Cost Matrix",
+          "Precision-Recall Tradeoff",
+          "F1 Optimization",
+          "Receiver Operating Characteristic",
+          "Decision Boundary"
+        ]
+      ],
+      [
+        "Softmax Cross-Entropy Loss Derivative",
+        "Derive the simple gradient expression obtained when taking the derivative of Softmax Cross-Entropy loss.",
+        [
+          "Softmax Function",
+          "Cross-Entropy Loss",
+          "Softmax Derivative",
+          "Gradient Vector",
+          "Logits",
+          "Backpropagation"
+        ]
+      ],
+      [
+        "Silhouette Score for Clustering",
+        "How does the Silhouette Score evaluate cluster cohesion against cluster separation?",
+        [
+          "Silhouette Score",
+          "Mean Intra-Cluster Distance",
+          "Mean Nearest-Cluster Distance",
+          "Cluster Cohesion",
+          "Cluster Separation",
+          "Cluster Quality"
+        ]
+      ],
+      [
+        "Feature Interaction Terms",
+        "How do feature interaction terms help linear models capture non-linear synergistic effects?",
+        [
+          "Feature Interactions",
+          "Polynomial Features",
+          "Synergistic Effect",
+          "Non-linear Relationships",
+          "Model Interpretability",
+          "Multicollinearity"
+        ]
+      ]
+    ],
+    "hard": [
+      [
+        "SVM Dual Formulation & KKT Conditions",
+        "Derive the dual formulation of Support Vector Machines and state the Karush-Kuhn-Tucker (KKT) conditions.",
+        [
+          "Dual Formulation",
+          "KKT Conditions",
+          "Lagrange Multipliers",
+          "Primal Problem",
+          "Support Vectors",
+          "Slater's Condition"
+        ]
+      ],
+      [
+        "Backpropagation Matrix Calculus",
+        "Detail the matrix calculus formulation of backpropagation across arbitrary computational graphs.",
+        [
+          "Backpropagation",
+          "Chain Rule",
+          "Jacobian Matrix",
+          "Gradient Tensor",
+          "Computation Graph",
+          "Vector Calculus"
+        ]
+      ],
+      [
+        "Vanishing & Exploding Gradients",
+        "Analyze how weight matrix spectral radius causes vanishing or exploding gradients in deep networks.",
+        [
+          "Vanishing Gradient",
+          "Exploding Gradient",
+          "Spectral Radius",
+          "Gradient Clipping",
+          "Weight Initialization",
+          "Eigenvalue Analysis"
+        ]
+      ],
+      [
+        "Depthwise Separable Convolutions",
+        "Analyze the parameter count and FLOP reduction of Depthwise Separable Convolutions versus standard 2D convolutions.",
+        [
+          "Depthwise Convolution",
+          "Pointwise Convolution",
+          "Depthwise Separable Conv",
+          "Computational Complexity",
+          "Parameter Reduction",
+          "MobileNet"
+        ]
+      ],
+      [
+        "LSTM Cell Gate Equations",
+        "Detail the exact mathematical equations governing LSTM forget, input, and output gates.",
+        [
+          "Forget Gate",
+          "Input Gate",
+          "Output Gate",
+          "Cell State",
+          "Hidden State",
+          "Sigmoid Activation"
+        ]
+      ],
+      [
+        "Scaled Dot-Product Attention Derivatives",
+        "Derive the backward pass gradients for scaled dot-product attention with respect to Query, Key, and Value matrices.",
+        [
+          "Scaled Dot-Product",
+          "Query Key Value",
+          "Scale Factor sqrt(dk)",
+          "Gradient Derivative",
+          "Softmax Jacobian",
+          "Attention Weights"
+        ]
+      ],
+      [
+        "Second-Order Optimization (L-BFGS)",
+        "Explain how Quasi-Newton L-BFGS approximates the inverse Hessian matrix using two-loop recursion.",
+        [
+          "L-BFGS",
+          "Hessian Matrix",
+          "Quasi-Newton Method",
+          "Two-Loop Recursion",
+          "Curvature Information",
+          "Convergence Rate"
+        ]
+      ],
+      [
+        "Gaussian Mixture Models & EM Derivation",
+        "Derive the expectation step Q-function and M-step parameter updates for Gaussian Mixture Models.",
+        [
+          "Gaussian Mixture Model",
+          "Expectation-Maximization",
+          "E-Step Q-Function",
+          "M-Step Parameter Update",
+          "Log-Likelihood Bound",
+          "Posterior Responsibilities"
+        ]
+      ],
+      [
+        "PCA Proof via Singular Value Decomposition",
+        "Prove that Principal Component Analysis directions correspond to the right singular vectors of a centered data matrix.",
+        [
+          "Singular Value Decomposition",
+          "Covariance Matrix",
+          "Right Singular Vectors",
+          "Eigenvalue Decomposition",
+          "Principal Components",
+          "Low-Rank Approximation"
+        ]
+      ],
+      [
+        "Kernel Ridge Regression vs SVM",
+        "Compare Kernel Ridge Regression and SVM in terms of loss function convexity, closed-form solutions, and dual sparsity.",
+        [
+          "Kernel Ridge Regression",
+          "Support Vector Machine",
+          "L2 Loss vs Hinge Loss",
+          "Sparsity",
+          "Closed-Form Solution",
+          "Convex Optimization"
+        ]
+      ],
+      [
+        "Semi-Supervised Consistency Regularization",
+        "How do consistency regularization and pseudo-labeling leverage unlabeled data in modern semi-supervised frameworks?",
+        [
+          "Consistency Regularization",
+          "Pseudo-Labeling",
+          "Data Augmentation",
+          "Unlabeled Data Loss",
+          "Teacher-Student Model",
+          "Thresholding"
+        ]
+      ],
+      [
+        "Out-of-Distribution Temperature Scaling",
+        "Explain how Temperature Scaling calibrates softmax prediction confidence for out-of-distribution detection.",
+        [
+          "Out-of-Distribution",
+          "Temperature Scaling",
+          "Softmax Calibration",
+          "Expected Calibration Error",
+          "Confidence Estimation",
+          "Logit Scaling"
+        ]
+      ],
+      [
+        "Adversarial Robustness & PGD Attack",
+        "Formulate the min-max optimization problem of adversarial training using Projected Gradient Descent (PGD).",
+        [
+          "Adversarial Attack",
+          "Projected Gradient Descent",
+          "Fast Gradient Sign Method",
+          "Epsilon Ball",
+          "Adversarial Training",
+          "Robustness"
+        ]
+      ],
+      [
+        "VC Dimension & Rademacher Complexity",
+        "Contrast VC Dimension and Empirical Rademacher Complexity in establishing generalization bounds for hypothesis classes.",
+        [
+          "Vapnik-Chervonenkis Dimension",
+          "Rademacher Complexity",
+          "Shattering",
+          "Generalization Bound",
+          "Hypothesis Class",
+          "Sample Complexity"
+        ]
+      ],
+      [
+        "Neural Tangent Kernel (NTK) Theory",
+        "What does Neural Tangent Kernel theory reveal about infinite-width neural network optimization under gradient descent?",
+        [
+          "Neural Tangent Kernel",
+          "Infinite Width Limit",
+          "Lazy Training",
+          "Linearized Dynamics",
+          "Kernel Gradient Descent",
+          "Generalization"
+        ]
+      ],
+      [
+        "XGBoost Second-Order Loss Derivation",
+        "Derive the second-order Taylor expansion loss function used in XGBoost to compute optimal leaf weights and split gain.",
+        [
+          "XGBoost Loss Derivation",
+          "Taylor Series Expansion",
+          "First-Order Gradient",
+          "Second-Order Hessian",
+          "Optimal Weight Formula",
+          "Tree Gain"
+        ]
+      ],
+      [
+        "Triplet Loss & Contrastive Optimization",
+        "Formulate Triplet Loss and explain the importance of semi-hard negative mining during metric learning.",
+        [
+          "Triplet Loss",
+          "Anchor",
+          "Positive Sample",
+          "Negative Sample",
+          "Margin Parameter",
+          "Hard Triplet Mining"
+        ]
+      ],
+      [
+        "Masked Autoencoders (MAE) Vision",
+        "How do Masked Autoencoders achieve high visual pretraining efficiency by processing only unmasked image patches?",
+        [
+          "Masked Autoencoders",
+          "Patch Masking",
+          "Encoder-Decoder",
+          "Reconstruction Loss",
+          "Vision Transformer",
+          "Self-Supervised Pretraining"
+        ]
+      ],
+      [
+        "Federated Averaging (FedAvg) Math",
+        "Explain the FedAvg algorithm step-by-step and analyze the mathematical challenges posed by non-IID client data distributions.",
+        [
+          "Federated Averaging",
+          "FedAvg",
+          "Local SGD",
+          "Server Aggregation",
+          "Communication Cost",
+          "Non-IID Data"
+        ]
+      ],
+      [
+        "Differential Privacy in SGD (DP-SGD)",
+        "Explain how gradient clipping and Gaussian noise injection preserve (epsilon, delta)-differential privacy in DP-SGD.",
+        [
+          "Differential Privacy",
+          "DP-SGD",
+          "Gradient Clipping",
+          "Gaussian Noise Addition",
+          "Privacy Budget Epsilon",
+          "R\u00e9nyi DP"
+        ]
+      ],
+      [
+        "Multi-Task Learning Loss Balancing",
+        "How does homoscedastic uncertainty weighting dynamically balance task loss magnitudes in multi-task learning?",
+        [
+          "Multi-Task Learning",
+          "Homoscedastic Uncertainty",
+          "Task Weighting",
+          "Shared Representations",
+          "Gradient Conflict",
+          "Loss Normalization"
+        ]
+      ],
+      [
+        "Rotary Position Embedding Math",
+        "Prove how applying 2D rotation matrices to Key and Query vectors preserves relative distance dot products.",
+        [
+          "Rotary Position Embedding",
+          "Complex Number Representation",
+          "Rotation Matrix",
+          "Inner Product Preservation",
+          "Relative Distance",
+          "Key-Query Interaction"
+        ]
+      ],
+      [
+        "Loss Landscape Geometry & Flat Minima",
+        "Why do wide/flat loss minima generalize better to test distributions than sharp local minima?",
+        [
+          "Loss Landscape",
+          "Sharp Minima",
+          "Flat Minima",
+          "Hessian Eigenvalues",
+          "Generalization Gap",
+          "Stochastic Weight Averaging"
+        ]
+      ],
+      [
+        "Information Bottleneck Theory in DNNs",
+        "Explain how deep neural networks maximize mutual information between internal representations and targets while compressing input noise.",
+        [
+          "Information Bottleneck",
+          "Mutual Information",
+          "Input Compression",
+          "Target Prediction",
+          "Lagrangian Multiplier",
+          "Representation Learning"
+        ]
+      ],
+      [
+        "Graph Convolutional Networks Spectral Math",
+        "Derive the first-order Chebyshev polynomial approximation used to compute graph spectral convolutions in GCNs.",
+        [
+          "Graph Convolutional Network",
+          "Normalized Graph Laplacian",
+          "Chebyshev Polynomials",
+          "Spectral Filter",
+          "Adjacency Matrix",
+          "Fourier Transform on Graphs"
+        ]
+      ]
+    ]
+  },
+  "Web Development": {
+    "easy": [
+      [
+        "HTML5 Semantic Elements Benefits",
+        "What are the SEO, accessibility, and structure benefits of using HTML5 semantic elements like <header>, <nav>, and <article>?",
+        [
+          "Semantic HTML",
+          "Accessibility",
+          "SEO Optimization",
+          "Header/Nav/Section",
+          "Screen Readers",
+          "Document Outline"
+        ]
+      ],
+      [
+        "CSS Flexbox Layout Properties",
+        "How do justify-content and align-items control layout alignment along flexbox axes?",
+        [
+          "Flexbox",
+          "justify-content",
+          "align-items",
+          "flex-direction",
+          "Flex Container",
+          "Main Axis/Cross Axis"
+        ]
+      ],
+      [
+        "CSS Box Model Breakdown",
+        "Describe the four layers of the CSS Box Model and explain how box-sizing: border-box changes element sizing.",
+        [
+          "Box Model",
+          "Content",
+          "Padding",
+          "Border",
+          "Margin",
+          "box-sizing: border-box"
+        ]
+      ],
+      [
+        "Primitive vs Reference JavaScript Types",
+        "How does JavaScript handle Primitive Data Types versus Reference Data Types in memory allocation?",
+        [
+          "Primitive Types",
+          "Reference Types",
+          "Value vs Reference",
+          "Stack vs Heap",
+          "Immutability",
+          "Memory Allocation"
+        ]
+      ],
+      [
+        "var vs let vs const Scope",
+        "What are the scoping, hoisting, and re-assignment differences between var, let, and const in modern JavaScript?",
+        [
+          "var",
+          "let",
+          "const",
+          "Block Scope",
+          "Function Scope",
+          "Hoisting"
+        ]
+      ],
+      [
+        "JavaScript Event Loop Single Thread",
+        "How does the single-threaded JavaScript Event Loop execute non-blocking asynchronous callbacks?",
+        [
+          "Event Loop",
+          "Single Thread",
+          "Call Stack",
+          "Callback Queue",
+          "Non-Blocking I/O",
+          "Asynchronous Execution"
+        ]
+      ],
+      [
+        "DOM Selection Methods",
+        "Compare document.getElementById with document.querySelector in terms of performance and flexibility.",
+        [
+          "getElementById",
+          "querySelector",
+          "DOM Tree",
+          "NodeList",
+          "HTMLCollection",
+          "Performance"
+        ]
+      ],
+      [
+        "HTTP Methods Semantics",
+        "What are the semantic definitions and idempotency guarantees of GET, POST, PUT, and DELETE HTTP methods?",
+        [
+          "GET",
+          "POST",
+          "PUT",
+          "DELETE",
+          "Idempotency",
+          "Request Body"
+        ]
+      ],
+      [
+        "HTTP Status Codes Interpretation",
+        "What do 200, 201, 400, 401, 404, and 500 status codes signify in web APIs?",
+        [
+          "200 OK",
+          "201 Created",
+          "400 Bad Request",
+          "401 Unauthorized",
+          "404 Not Found",
+          "500 Internal Error"
+        ]
+      ],
+      [
+        "RESTful API Principles",
+        "What are the key architectural constraints of RESTful web services?",
+        [
+          "REST",
+          "Statelessness",
+          "Resource URI",
+          "HTTP Verbs",
+          "JSON Response",
+          "Client-Server Separation"
+        ]
+      ],
+      [
+        "Browser Storage Options",
+        "Compare LocalStorage, SessionStorage, and Cookies regarding capacity, expiration, and server accessibility.",
+        [
+          "LocalStorage",
+          "SessionStorage",
+          "Cookies",
+          "Expiration",
+          "Storage Limit",
+          "Domain Scope"
+        ]
+      ],
+      [
+        "CSS Grid vs Flexbox Use Cases",
+        "When should you use CSS Grid instead of Flexbox for building web application layouts?",
+        [
+          "CSS Grid",
+          "Flexbox",
+          "Two-Dimensional Layout",
+          "One-Dimensional Layout",
+          "Grid Template Areas",
+          "Alignment"
+        ]
+      ],
+      [
+        "Arrow Functions vs Traditional Functions",
+        "How do Arrow Functions handle the 'this' keyword and 'arguments' object differently than traditional functions?",
+        [
+          "Arrow Functions",
+          "Traditional Functions",
+          "this Binding",
+          "arguments Object",
+          "Constructor Function",
+          "Lexical Scope"
+        ]
+      ],
+      [
+        "Asynchronous JS: Promises & Async/Await",
+        "How do JavaScript Promises and async/await simplify handling asynchronous operations compared to callbacks?",
+        [
+          "Promises",
+          "async/await",
+          "Promise Chains",
+          "Reject/Resolve",
+          "Error Handling",
+          "Non-blocking"
+        ]
+      ],
+      [
+        "CORS Security Mechanics",
+        "What is Cross-Origin Resource Sharing (CORS), and why do browsers send preflight OPTIONS requests?",
+        [
+          "CORS",
+          "Cross-Origin Resource Sharing",
+          "Same-Origin Policy",
+          "Access-Control-Allow-Origin",
+          "Preflight Request",
+          "Headers"
+        ]
+      ],
+      [
+        "Responsive Design & Media Queries",
+        "How do CSS media queries and viewport meta tags enable responsive web design across devices?",
+        [
+          "Responsive Web Design",
+          "Media Queries",
+          "Viewport Meta Tag",
+          "Fluid Layouts",
+          "Breakpoints",
+          "Mobile-First"
+        ]
+      ],
+      [
+        "React Functional vs Class Components",
+        "Why have functional components with React Hooks largely superseded class components in modern React?",
+        [
+          "Functional Components",
+          "Class Components",
+          "React Hooks",
+          "Lifecycle Methods",
+          "State Management",
+          "JSX"
+        ]
+      ],
+      [
+        "React Props vs State",
+        "Explain the difference between Props and State in React component architecture.",
+        [
+          "React Props",
+          "React State",
+          "Unidirectional Data Flow",
+          "Immutability",
+          "Component Re-render",
+          "Parent-Child Communication"
+        ]
+      ],
+      [
+        "React useState Hook Workflow",
+        "How does the useState hook manage local component state and trigger re-renders in React?",
+        [
+          "useState",
+          "State Variable",
+          "Setter Function",
+          "Initial State",
+          "Re-render Trigger",
+          "Functional Updates"
+        ]
+      ],
+      [
+        "HTML5 Form Native Validation",
+        "How do HTML5 form validation attributes like required, pattern, and type work natively?",
+        [
+          "HTML5 Form Validation",
+          "required Attribute",
+          "pattern Regex",
+          "type Validation",
+          "Validity State API",
+          "User Feedback"
+        ]
+      ],
+      [
+        "CSS Specificity Rules",
+        "How is CSS specificity calculated when multiple selectors target the same element?",
+        [
+          "CSS Specificity",
+          "Inline Styles",
+          "ID Selectors",
+          "Class Selectors",
+          "Element Selectors",
+          "!important Rule"
+        ]
+      ],
+      [
+        "Git Version Control Fundamentals",
+        "Describe the standard Git feature branch workflow from cloning to merging a pull request.",
+        [
+          "Git",
+          "Repository",
+          "Commit",
+          "Branch",
+          "Merge",
+          "Pull Request"
+        ]
+      ],
+      [
+        "JSON Format & Parsing Syntax",
+        "How do JSON.parse() and JSON.stringify() handle data conversion in JavaScript?",
+        [
+          "JSON",
+          "JSON.parse()",
+          "JSON.stringify()",
+          "Key-Value Pairs",
+          "Data Serialization",
+          "Syntax Rules"
+        ]
+      ],
+      [
+        "Client-Side vs Server-Side Rendering",
+        "Compare Client-Side Rendering (CSR) and Server-Side Rendering (SSR) regarding initial load performance and SEO.",
+        [
+          "Client-Side Rendering",
+          "Server-Side Rendering",
+          "Initial Page Load",
+          "SEO Impact",
+          "Bundle Size",
+          "HTML Generation"
+        ]
+      ],
+      [
+        "Web Accessibility (WCAG & ARIA)",
+        "How do WCAG accessibility guidelines and WAI-ARIA roles make web applications accessible to screen readers?",
+        [
+          "Web Accessibility",
+          "WCAG Guidelines",
+          "ARIA Attributes",
+          "Screen Readers",
+          "Keyboard Navigation",
+          "Color Contrast"
+        ]
+      ]
+    ],
+    "medium": [
+      [
+        "React useEffect Hook Cleanup",
+        "Why is the cleanup function essential in React's useEffect hook when setting up event listeners or timers?",
+        [
+          "useEffect",
+          "Dependency Array",
+          "Cleanup Function",
+          "Side Effects",
+          "Component Unmount",
+          "Infinite Loop Prevention"
+        ]
+      ],
+      [
+        "React Virtual DOM & Reconciliation",
+        "How does React's Fiber reconciliation algorithm update the real DOM efficiently using Virtual DOM diffing?",
+        [
+          "Virtual DOM",
+          "Reconciliation",
+          "Fiber Architecture",
+          "Diffing Algorithm",
+          "Batching Updates",
+          "DOM Operations"
+        ]
+      ],
+      [
+        "State Management Libraries Comparison",
+        "Compare Redux Toolkit, Context API, and Zustand for state management in large-scale React applications.",
+        [
+          "Redux Toolkit",
+          "Context API",
+          "Zustand",
+          "Global State",
+          "Prop Drilling",
+          "Store Slices"
+        ]
+      ],
+      [
+        "JavaScript Closures & Lexical Scope",
+        "What is a JavaScript closure, and how does it maintain access to outer lexical scope variables after the outer function returns?",
+        [
+          "Closure",
+          "Lexical Scope",
+          "Outer Function Scope",
+          "Encapsulation",
+          "Private Variables",
+          "Memory Retention"
+        ]
+      ],
+      [
+        "JavaScript Prototype Chain",
+        "How does prototypal inheritance work in JavaScript when resolving properties up the prototype chain?",
+        [
+          "Prototype Chain",
+          "__proto__",
+          "prototype Property",
+          "Inheritance",
+          "Object.create()",
+          "Property Lookup"
+        ]
+      ],
+      [
+        "Debouncing vs Throttling Handlers",
+        "Compare debouncing and throttling event handlers when optimizing window resize or scroll performance.",
+        [
+          "Debouncing",
+          "Throttling",
+          "Event Frequency",
+          "Timer Management",
+          "Resize/Scroll Events",
+          "Performance Optimization"
+        ]
+      ],
+      [
+        "WebSockets vs SSE vs Long Polling",
+        "Compare WebSockets, Server-Sent Events (SSE), and HTTP Long Polling for real-time bidirectional web communications.",
+        [
+          "WebSockets",
+          "Server-Sent Events",
+          "Long Polling",
+          "Bi-directional Communication",
+          "HTTP Overhead",
+          "Real-Time Updates"
+        ]
+      ],
+      [
+        "JWT Authentication & Storage Security",
+        "How does JSON Web Token (JWT) authentication work, and why should sensitive tokens be stored in HttpOnly cookies instead of LocalStorage?",
+        [
+          "JWT",
+          "Header Payload Signature",
+          "Bearer Token",
+          "HttpOnly Cookies",
+          "XSS Risk",
+          "Token Expiration"
+        ]
+      ],
+      [
+        "HTTPS & TLS/SSL Handshake Sequence",
+        "Explain the step-by-step sequence of a TLS/SSL handshake when establishing a secure HTTPS connection.",
+        [
+          "HTTPS",
+          "TLS/SSL Handshake",
+          "Asymmetric Encryption",
+          "Symmetric Encryption",
+          "Certificate Authority",
+          "Public Key"
+        ]
+      ],
+      [
+        "CSS Positioning Modes",
+        "Distinguish between static, relative, absolute, fixed, and sticky CSS positioning modes.",
+        [
+          "Position Static",
+          "Relative",
+          "Absolute",
+          "Fixed",
+          "Sticky",
+          "Containing Block"
+        ]
+      ],
+      [
+        "Node.js Event Loop Phases",
+        "Explain the event loop phases in Node.js (Timers, I/O Poll, Check phase) and libuv's role.",
+        [
+          "Node.js Event Loop",
+          "Timers Phase",
+          "Poll Phase",
+          "Check Phase",
+          "libuv",
+          "Microtask Queue"
+        ]
+      ],
+      [
+        "Next.js Rendering Modes (SSR/SSG/ISR)",
+        "How do SSR, SSG, and Incremental Static Regeneration (ISR) operate in Next.js applications?",
+        [
+          "Next.js",
+          "Server-Side Rendering",
+          "Static Site Generation",
+          "Incremental Static Regeneration",
+          "GetStaticProps",
+          "GetServerSideProps"
+        ]
+      ],
+      [
+        "XSS Attack Prevention Techniques",
+        "How do Cross-Site Scripting (XSS) attacks exploit un-sanitized input, and how can Content Security Policy (CSP) mitigate them?",
+        [
+          "XSS",
+          "Cross-Site Scripting",
+          "Input Sanitization",
+          "Content Security Policy",
+          "HTML Escaping",
+          "Reflected vs Stored XSS"
+        ]
+      ],
+      [
+        "CSRF Tokens & SameSite Cookie Protection",
+        "How do Anti-CSRF tokens and SameSite cookie attributes defend against Cross-Site Request Forgery attacks?",
+        [
+          "CSRF",
+          "Cross-Site Request Forgery",
+          "Anti-CSRF Tokens",
+          "SameSite Cookie Attribute",
+          "State-Changing Requests",
+          "Origin Header"
+        ]
+      ],
+      [
+        "Web Performance Code Splitting",
+        "How do code splitting and lazy loading reduce initial JavaScript bundle sizes in modern web applications?",
+        [
+          "Code Splitting",
+          "Lazy Loading",
+          "Dynamic Import()",
+          "Bundle Analyzer",
+          "Tree Shaking",
+          "Asset Optimization"
+        ]
+      ],
+      [
+        "Browser Caching & ETag Headers",
+        "How do Cache-Control directives and ETag validation headers work together to optimize browser caching?",
+        [
+          "Cache-Control",
+          "ETag Header",
+          "Max-Age",
+          "Must-Revalidate",
+          "Conditional GET",
+          "304 Not Modified"
+        ]
+      ],
+      [
+        "GraphQL vs REST Architecture",
+        "What architectural advantages and trade-offs does GraphQL offer over traditional REST APIs regarding data fetching?",
+        [
+          "GraphQL",
+          "REST",
+          "Over-fetching",
+          "Under-fetching",
+          "Schema Definition",
+          "Single Endpoint"
+        ]
+      ],
+      [
+        "Node.js Streams & Backpressure",
+        "How do Node.js readable/writable streams handle backpressure when reading large data payloads?",
+        [
+          "Streams",
+          "Readable/Writable Stream",
+          "Pipe()",
+          "Backpressure",
+          "Buffer Management",
+          "Memory Efficiency"
+        ]
+      ],
+      [
+        "Web Workers Multithreading",
+        "How do Web Workers allow running CPU-intensive JavaScript tasks on background threads without freezing the UI?",
+        [
+          "Web Workers",
+          "Dedicated Worker",
+          "PostMessage()",
+          "Main Thread Unblocking",
+          "Worker Scope",
+          "No DOM Access"
+        ]
+      ],
+      [
+        "Service Workers & PWA Caching",
+        "How do Service Workers intercept fetch events to enable offline caching in Progressive Web Apps (PWAs)?",
+        [
+          "Service Worker",
+          "Cache Storage API",
+          "Fetch Event",
+          "Offline Mode",
+          "PWA Manifest",
+          "Background Sync"
+        ]
+      ],
+      [
+        "TypeScript Interfaces vs Type Aliases",
+        "Compare TypeScript Interfaces and Type Aliases regarding declaration merging, union types, and extensibility.",
+        [
+          "TypeScript Interfaces",
+          "Type Aliases",
+          "Union Types",
+          "Interface Merging",
+          "Generics",
+          "Type Safety"
+        ]
+      ],
+      [
+        "CSS Architecture (BEM vs Tailwind)",
+        "Compare BEM methodology, CSS Modules, and Tailwind CSS in managing CSS maintainability and global specificity wars.",
+        [
+          "BEM Methodology",
+          "Tailwind CSS",
+          "CSS Modules",
+          "Utility-First",
+          "Maintainability",
+          "Specificity Wars"
+        ]
+      ],
+      [
+        "Event Bubbling vs Event Capturing",
+        "Explain Event Bubbling versus Event Capturing, and show how event delegation optimizes memory usage.",
+        [
+          "Event Bubbling",
+          "Event Capturing",
+          "Event Delegation",
+          "stopPropagation()",
+          "Target vs CurrentTarget",
+          "Event Listener Phase"
+        ]
+      ],
+      [
+        "Micro-frontend Architecture Basics",
+        "What is a micro-frontend architecture, and how does Webpack Module Federation enable independent frontend deployment?",
+        [
+          "Micro-frontends",
+          "Module Federation",
+          "Independent Deployment",
+          "Domain Sub-apps",
+          "Shared Dependencies",
+          "Router Orchestration"
+        ]
+      ],
+      [
+        "Fetch API vs Axios Interceptors",
+        "Compare native Fetch API with Axios regarding automatic JSON parsing, request interceptors, and error status handling.",
+        [
+          "Fetch API",
+          "Axios",
+          "Request/Response Interceptors",
+          "Automatic JSON Parsing",
+          "Request Cancellation",
+          "Error Status Handling"
+        ]
+      ]
+    ],
+    "hard": [
+      [
+        "Browser Rendering Engine Pipeline",
+        "Analyze the step-by-step browser rendering pipeline from HTML parsing to composite GPU layer rendering.",
+        [
+          "Browser Rendering Pipeline",
+          "DOM Tree",
+          "CSSOM",
+          "Render Tree",
+          "Layout/Reflow",
+          "Composite Layers"
+        ]
+      ],
+      [
+        "React 18 Concurrent Rendering",
+        "Explain how React 18 Concurrent Rendering features like Suspense, useTransition, and Server Components change UI rendering priority.",
+        [
+          "Concurrent React",
+          "Suspense",
+          "useTransition",
+          "useDeferredValue",
+          "Server Components",
+          "Non-blocking Rendering"
+        ]
+      ],
+      [
+        "SharedArrayBuffer & Atomics in JS",
+        "How do SharedArrayBuffer and the Atomics API facilitate multithreaded shared memory operations in JavaScript without race conditions?",
+        [
+          "SharedArrayBuffer",
+          "Atomics API",
+          "Shared Memory",
+          "Thread Synchronization",
+          "Race Conditions",
+          "Locking Mechanics"
+        ]
+      ],
+      [
+        "HTTP/2 Multiplexing & HTTP/3 QUIC",
+        "Contrast HTTP/2 multiplexing over TCP with HTTP/3 QUIC transport over UDP regarding Head-of-Line blocking.",
+        [
+          "HTTP/2",
+          "HTTP/3",
+          "Multiplexing",
+          "Head-of-Line Blocking",
+          "QUIC Protocol",
+          "UDP Transport"
+        ]
+      ],
+      [
+        "WebRTC Peer-to-Peer Architecture",
+        "Detail the WebRTC peer-to-peer signaling sequence, including STUN/TURN servers, SDP exchange, and ICE candidates.",
+        [
+          "WebRTC",
+          "P2P Connection",
+          "STUN/TURN Servers",
+          "ICE Candidates",
+          "SDP Offer/Answer",
+          "DataChannel"
+        ]
+      ],
+      [
+        "OAuth 2.0 PKCE Flow",
+        "Explain why Proof Key for Code Exchange (PKCE) is required for OAuth 2.0 authorization flows in Single Page Applications.",
+        [
+          "OAuth 2.0",
+          "PKCE",
+          "Code Verifier",
+          "Code Challenge",
+          "Authorization Code Flow",
+          "Single Page Apps"
+        ]
+      ],
+      [
+        "SPA Client Routing & History API",
+        "How do Single Page Application client-side routers implement deep linking using the HTML5 History API without triggering page reloads?",
+        [
+          "Single Page Application",
+          "HTML5 History API",
+          "pushState()",
+          "popstate Event",
+          "Client-side Router",
+          "Fallback Routing"
+        ]
+      ],
+      [
+        "Custom Virtual DOM Diffing Mechanics",
+        "Formulate an O(N) heuristic diffing algorithm for Virtual DOM reconciliation, detailing key-based list re-ordering.",
+        [
+          "Virtual DOM Diffing",
+          "Heuristic O(N) Algorithm",
+          "Keyed Elements",
+          "Tree Traversal",
+          "Patch Generation",
+          "Reconciliation"
+        ]
+      ],
+      [
+        "Database Connection Pooling & Isolation",
+        "Explain how backend database connection pools optimize socket re-use and compare SQL transaction isolation levels under concurrent access.",
+        [
+          "Connection Pooling",
+          "ACID Transactions",
+          "Isolation Levels",
+          "Read Committed",
+          "Serializable",
+          "Deadlock Handling"
+        ]
+      ],
+      [
+        "Node.js V8 Heap & Garbage Collection",
+        "Analyze V8 engine memory allocation (New Space vs Old Space) and explain how Scavenger and Mark-Sweep garbage collectors operate.",
+        [
+          "V8 Heap",
+          "Garbage Collection",
+          "Scavenger Algorithm",
+          "Mark-Sweep-Compact",
+          "Memory Leak Debugging",
+          "Generational Hypothesis"
+        ]
+      ],
+      [
+        "Module Bundling AST & Vite HMR Engine",
+        "How does Vite leverage native ES modules and Hot Module Replacement (HMR) to provide instant dev server updates compared to Webpack bundle graphs?",
+        [
+          "Abstract Syntax Tree",
+          "Module Graph",
+          "Hot Module Replacement",
+          "Vite ESM Server",
+          "Rollup/Webpack",
+          "Bundle Chunks"
+        ]
+      ],
+      [
+        "WebAssembly Integration & Memory Bridge",
+        "How does WebAssembly execute compiled C++/Rust binaries at near-native speed, and how does data pass across the JS linear memory bridge?",
+        [
+          "WebAssembly",
+          "Wasm Binary",
+          "Linear Memory",
+          "JS WebAssembly Bridge",
+          "C++/Rust Compilation",
+          "Near-Native Speed"
+        ]
+      ],
+      [
+        "Core Web Vitals Deep Dive (LCP, INP, CLS)",
+        "Analyze the technical factors that cause poor LCP, INP, and CLS scores, and detail specific engineering fixes for each metric.",
+        [
+          "Core Web Vitals",
+          "Largest Contentful Paint",
+          "Interaction to Next Paint",
+          "Cumulative Layout Shift",
+          "Performance Budget",
+          "Field Data"
+        ]
+      ],
+      [
+        "Web Cryptography API Zero-Knowledge",
+        "How can the Web Cryptography API implement end-to-end zero-knowledge client-side encryption using SubtleCrypto?",
+        [
+          "Web Cryptography API",
+          "SubtleCrypto",
+          "Client-Side Encryption",
+          "AES-GCM",
+          "Zero-Knowledge Architecture",
+          "Key Generation"
+        ]
+      ],
+      [
+        "Microservices API Gateway & Circuit Breakers",
+        "How does an API Gateway integrate with Circuit Breakers to prevent cascading failures across microservice clusters?",
+        [
+          "API Gateway",
+          "Rate Limiting",
+          "Circuit Breaker Pattern",
+          "Hystrix/Resilience4j",
+          "Service Mesh",
+          "Reverse Proxy"
+        ]
+      ],
+      [
+        "CDN Edge Computing & Edge SSR",
+        "How do Edge Workers execute serverless code at CDN edge locations to achieve ultra-low latency Edge SSR?",
+        [
+          "Edge Computing",
+          "Cloudflare Workers",
+          "Edge SSR",
+          "Global Latency",
+          "Vary Headers",
+          "Stale-While-Revalidate"
+        ]
+      ],
+      [
+        "Serverless Cold Start Mitigation",
+        "What causes serverless cold starts in AWS Lambda/Vercel functions, and how can architecture patterns mitigate them?",
+        [
+          "Serverless",
+          "Cold Start",
+          "Execution Context Reuse",
+          "Provisioned Concurrency",
+          "Function Size",
+          "Stateless Functions"
+        ]
+      ],
+      [
+        "GraphQL DataLoader N+1 Solution",
+        "Explain the GraphQL N+1 query problem and derive the batching/caching mechanics of the DataLoader pattern.",
+        [
+          "GraphQL N+1 Problem",
+          "DataLoader",
+          "Batching Requests",
+          "Caching per Request",
+          "Query Complexity",
+          "Resolver Tree"
+        ]
+      ],
+      [
+        "Real-Time Collaboration: OT vs CRDTs",
+        "Contrast Operational Transformation (OT) and Conflict-Free Replicated Data Types (CRDTs) in building real-time collaborative editors.",
+        [
+          "Operational Transformation",
+          "CRDTs",
+          "Conflict-Free Replicated Data Types",
+          "Eventual Consistency",
+          "Collaborative Editing",
+          "Peer Synchronization"
+        ]
+      ],
+      [
+        "CSS Containment & Layout Thrashing",
+        "How does the CSS contain property prevent layout thrashing and forced synchronous reflows in complex web applications?",
+        [
+          "CSS contain Property",
+          "Layout Thrashing",
+          "FastDOM",
+          "Forced Synchronous Layout",
+          "Composite Layers",
+          "Will-Change Property"
+        ]
+      ],
+      [
+        "Enterprise SSO: SAML vs OIDC Federation",
+        "Compare SAML 2.0 XML assertions with OpenID Connect JWT tokens for enterprise Single Sign-On federation.",
+        [
+          "Single Sign-On",
+          "SAML 2.0",
+          "OpenID Connect",
+          "Identity Provider",
+          "Service Provider",
+          "JWT Assertions"
+        ]
+      ],
+      [
+        "Web Push Architecture & VAPID Protocol",
+        "Detail the architecture of Web Push Notifications, explaining VAPID key authentication and Service Worker push payloads.",
+        [
+          "Web Push API",
+          "VAPID Keys",
+          "Push Service",
+          "Service Worker Listener",
+          "Encrypted Payload",
+          "Notification Triggers"
+        ]
+      ],
+      [
+        "V8 JIT Compiler Ignition & TurboFan",
+        "Explain how the V8 JavaScript engine transitions code from the Ignition interpreter to the TurboFan JIT compiler using hidden classes and inline caches.",
+        [
+          "V8 Engine",
+          "Ignition Interpreter",
+          "TurboFan Compiler",
+          "Hidden Classes",
+          "Inline Caches",
+          "Deoptimization"
+        ]
+      ],
+      [
+        "Web Application Firewall Rules",
+        "How do Web Application Firewalls (WAF) inspect incoming HTTP payloads to block SQL injection, XSS, and layer 7 DDoS attacks?",
+        [
+          "WAF",
+          "DDoS Mitigation",
+          "SQL Injection Filtering",
+          "Rate Limiting Rules",
+          "IP Reputation",
+          "Packet Inspection"
+        ]
+      ],
+      [
+        "Module Federation Runtime Orchestration",
+        "How does Webpack 5 Module Federation dynamically load remote micro-frontend containers at runtime while sharing singleton dependencies?",
+        [
+          "Module Federation",
+          "Webpack 5",
+          "Remote Containers",
+          "Shared Dependencies",
+          "Dynamic Imports",
+          "Runtime Script Loading"
+        ]
+      ]
+    ]
+  },
+  "Data Science": {
+    "easy": [
+      [
+        "Data Science CRISP-DM Workflow",
+        "What are the six phases of the CRISP-DM data science project lifecycle?",
+        [
+          "CRISP-DM",
+          "Business Understanding",
+          "Data Preparation",
+          "Modeling",
+          "Evaluation",
+          "Deployment"
+        ]
+      ],
+      [
+        "Mean vs Median vs Mode",
+        "How do Mean, Median, and Mode behave when calculated on positively or negatively skewed data distributions?",
+        [
+          "Mean",
+          "Median",
+          "Mode",
+          "Skewed Distribution",
+          "Outlier Impact",
+          "Central Tendency"
+        ]
+      ],
+      [
+        "Standard Deviation vs Variance",
+        "What is the relationship between Standard Deviation and Variance, and why is Standard Deviation easier to interpret?",
+        [
+          "Standard Deviation",
+          "Variance",
+          "Spread of Data",
+          "Squared Differences",
+          "Units of Measurement",
+          "Dispersion"
+        ]
+      ],
+      [
+        "SQL SELECT Clause Execution Order",
+        "What is the logical execution order of SQL query clauses (FROM, WHERE, GROUP BY, HAVING, SELECT, ORDER BY)?",
+        [
+          "SELECT",
+          "FROM",
+          "WHERE",
+          "GROUP BY",
+          "HAVING",
+          "ORDER BY Execution Order"
+        ]
+      ],
+      [
+        "SQL JOIN Types Explained",
+        "Explain the difference in output rows produced by INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN.",
+        [
+          "INNER JOIN",
+          "LEFT JOIN",
+          "RIGHT JOIN",
+          "FULL OUTER JOIN",
+          "Matching Keys",
+          "Null Rows"
+        ]
+      ],
+      [
+        "Handling Missing Data Strategies",
+        "Compare Mean/Median Imputation against row deletion when dealing with missing values in Data Science.",
+        [
+          "Missing Data",
+          "Mean/Median Imputation",
+          "Dropping Missing Values",
+          "MCAR/MAR/MNAR",
+          "Data Bias",
+          "Forward Fill"
+        ]
+      ],
+      [
+        "Exploratory Data Analysis Objectives",
+        "What are the primary goals of conducting Exploratory Data Analysis (EDA) before model building?",
+        [
+          "Exploratory Data Analysis",
+          "Summary Statistics",
+          "Data Distribution",
+          "Correlation Matrix",
+          "Outlier Identification",
+          "Pattern Discovery"
+        ]
+      ],
+      [
+        "Pandas DataFrame vs Series",
+        "How do Pandas Series and DataFrame structures differ in dimensionality and data indexing?",
+        [
+          "Pandas DataFrame",
+          "Pandas Series",
+          "2D Tabular Data",
+          "1D Homogeneous Array",
+          "Index Labeling",
+          "Vectorized Operations"
+        ]
+      ],
+      [
+        "NumPy Arrays vs Python Lists",
+        "Why are NumPy arrays significantly faster and more memory-efficient than standard Python lists for data analysis?",
+        [
+          "NumPy Array",
+          "Python List",
+          "Contiguous Memory",
+          "Vectorization",
+          "Broadcasting",
+          "Performance"
+        ]
+      ],
+      [
+        "Data Types Taxonomy",
+        "Explain Nominal, Ordinal, Interval, and Ratio data types with concrete examples.",
+        [
+          "Nominal Data",
+          "Ordinal Data",
+          "Interval Data",
+          "Ratio Data",
+          "Categorical vs Numerical",
+          "Discrete vs Continuous"
+        ]
+      ],
+      [
+        "Histograms vs Boxplots Outlier Detection",
+        "How do boxplots visually indicate outliers using the Interquartile Range (IQR)?",
+        [
+          "Histogram",
+          "Boxplot",
+          "Interquartile Range",
+          "Whiskers",
+          "Bin Width",
+          "Outlier Visualisation"
+        ]
+      ],
+      [
+        "Correlation vs Causation",
+        "Why does a strong Pearson correlation coefficient between two variables not imply a causal relationship?",
+        [
+          "Correlation",
+          "Causation",
+          "Pearson Correlation",
+          "Confounding Variable",
+          "Controlled Experiment",
+          "Spurious Relationship"
+        ]
+      ],
+      [
+        "Outlier Detection Methods (IQR & Z-score)",
+        "How do IQR-based thresholds (1.5xIQR) and Z-score thresholds (|Z|>3) identify data outliers?",
+        [
+          "Outlier Detection",
+          "Interquartile Range",
+          "Z-Score",
+          "3-Sigma Rule",
+          "Q1/Q3 Quartiles",
+          "Data Trimming"
+        ]
+      ],
+      [
+        "Skewness & Kurtosis Concepts",
+        "What do positive skewness and high kurtosis reveal about a data distribution's tail behavior?",
+        [
+          "Skewness",
+          "Kurtosis",
+          "Positive Skew",
+          "Negative Skew",
+          "Heavy Tails",
+          "Normal Distribution Comparison"
+        ]
+      ],
+      [
+        "Data Cleaning Best Practices",
+        "What routine cleaning steps should be performed on raw datasets before conducting statistical analysis?",
+        [
+          "Data Cleaning",
+          "Duplicate Removal",
+          "Type Conversion",
+          "String Normalization",
+          "Validation Rules",
+          "Data Consistency"
+        ]
+      ],
+      [
+        "Descriptive vs Inferential Statistics",
+        "Contrast Descriptive Statistics with Inferential Statistics in data science studies.",
+        [
+          "Descriptive Statistics",
+          "Inferential Statistics",
+          "Sample Statistics",
+          "Population Parameters",
+          "Hypothesis Testing",
+          "Summary Metrics"
+        ]
+      ],
+      [
+        "Empirical Rule (68-95-99.7)",
+        "How does the 68-95-99.7 Empirical Rule apply to standard normal distributions?",
+        [
+          "Empirical Rule",
+          "Normal Distribution",
+          "Standard Deviation",
+          "68 Percent Rule",
+          "95 Percent Rule",
+          "99.7 Percent Rule"
+        ]
+      ],
+      [
+        "SQL Aggregate Functions",
+        "How do COUNT(), SUM(), AVG(), MIN(), and MAX() operate when combined with a GROUP BY clause in SQL?",
+        [
+          "COUNT()",
+          "SUM()",
+          "AVG()",
+          "MIN()",
+          "MAX()",
+          "GROUP BY Clause"
+        ]
+      ],
+      [
+        "Pandas Merge vs Join vs Concat",
+        "Distinguish between Pandas merge(), join(), and concat() methods for combining DataFrames.",
+        [
+          "Pandas merge()",
+          "Pandas join()",
+          "Pandas concat()",
+          "Column Indexing",
+          "Concatenation Axis",
+          "Key Alignment"
+        ]
+      ],
+      [
+        "Data Visualization Selection Guide",
+        "When should you select a scatter plot, bar chart, line chart, or heatmap for dataset visualization?",
+        [
+          "Scatter Plot",
+          "Bar Chart",
+          "Line Chart",
+          "Heatmap",
+          "Data Storytelling",
+          "Visual Encoding"
+        ]
+      ],
+      [
+        "Central Limit Theorem (CLT)",
+        "Why is the Central Limit Theorem fundamental to inferential statistics and sample estimation?",
+        [
+          "Central Limit Theorem",
+          "Sample Mean Distribution",
+          "Normal Approximation",
+          "Sample Size N>30",
+          "Population Variance",
+          "Standard Error"
+        ]
+      ],
+      [
+        "Conditional Probability & Bayes Basics",
+        "Formulate Bayes' Rule and define conditional probability P(A|B).",
+        [
+          "Conditional Probability",
+          "Bayes' Rule",
+          "P(A|B)",
+          "Joint Probability",
+          "Marginal Probability",
+          "Prior Probability"
+        ]
+      ],
+      [
+        "Quantitative vs Qualitative Attributes",
+        "What is the difference between quantitative numerical variables and qualitative categorical attributes?",
+        [
+          "Quantitative Variables",
+          "Qualitative Variables",
+          "Numerical Metrics",
+          "Categorical Labels",
+          "Measurement Scale",
+          "Statistical Operations"
+        ]
+      ],
+      [
+        "SQL WHERE vs HAVING Filtering",
+        "Why can't you use SQL aggregate functions inside a WHERE clause, and how does HAVING solve this?",
+        [
+          "WHERE Clause",
+          "HAVING Clause",
+          "Row-Level Filter",
+          "Aggregated Filter",
+          "GROUP BY Dependency",
+          "Query Performance"
+        ]
+      ],
+      [
+        "CSV vs Parquet Storage Formats",
+        "Compare CSV row-based text storage with Apache Parquet columnar binary storage for data analytics.",
+        [
+          "CSV Format",
+          "Parquet Format",
+          "Row-Based",
+          "Columnar Storage",
+          "Compression Ratio",
+          "Read Efficiency"
+        ]
+      ]
+    ],
+    "medium": [
+      [
+        "Hypothesis Testing Framework",
+        "Explain the step-by-step hypothesis testing process: defining H0/H1, selecting alpha, computing test statistics, and evaluating p-values.",
+        [
+          "Null Hypothesis H0",
+          "Alternative Hypothesis H1",
+          "p-value",
+          "Significance Level Alpha",
+          "Rejection Region",
+          "Test Statistic"
+        ]
+      ],
+      [
+        "Type I vs Type II Errors & Statistical Power",
+        "Distinguish between Type I (Alpha) and Type II (Beta) errors, and explain how statistical power (1-Beta) is calculated.",
+        [
+          "Type I Error",
+          "Type II Error",
+          "False Positive Rate",
+          "False Negative Rate",
+          "Statistical Power",
+          "Sample Size Impact"
+        ]
+      ],
+      [
+        "A/B Testing Methodology & Sample Size",
+        "How do you determine the required sample size for an A/B test based on Minimum Detectable Effect and statistical power?",
+        [
+          "A/B Testing",
+          "Control vs Variant",
+          "Minimum Detectable Effect",
+          "Sample Size Calculation",
+          "Randomization",
+          "Conversion Metric"
+        ]
+      ],
+      [
+        "Chi-Square Test vs ANOVA",
+        "When would you choose a Chi-Square Test for Independence versus a One-Way ANOVA test?",
+        [
+          "Chi-Square Test",
+          "ANOVA",
+          "Categorical Independence",
+          "Comparing Multiple Means",
+          "F-Statistic",
+          "Degrees of Freedom"
+        ]
+      ],
+      [
+        "Student's T-Test Variants",
+        "Compare One-Sample, Independent Two-Sample, and Paired T-Tests regarding their dataset assumptions.",
+        [
+          "One-Sample T-Test",
+          "Two-Sample T-Test",
+          "Paired T-Test",
+          "Equal Variance Assumption",
+          "T-Statistic",
+          "Degrees of Freedom"
+        ]
+      ],
+      [
+        "SQL Window Functions Mechanics",
+        "How do SQL window functions (ROW_NUMBER, RANK, DENSE_RANK) compute rankings across PARTITION BY partitions?",
+        [
+          "Window Functions",
+          "ROW_NUMBER()",
+          "RANK()",
+          "DENSE_RANK()",
+          "PARTITION BY",
+          "OVER Clause"
+        ]
+      ],
+      [
+        "Pandas Data Reshaping (Pivot & Melt)",
+        "How do pivot_table() and melt() reshape DataFrames between wide and long formats in Pandas?",
+        [
+          "pivot_table()",
+          "melt()",
+          "Wide to Long Format",
+          "Long to Wide Format",
+          "Aggregation Function",
+          "Index Reset"
+        ]
+      ],
+      [
+        "SQL CTEs vs Subqueries Optimization",
+        "Compare Common Table Expressions (CTEs) with inline subqueries regarding readability and query engine execution plans.",
+        [
+          "Common Table Expressions",
+          "Subqueries",
+          "WITH Clause",
+          "Query Readability",
+          "Query Optimizer",
+          "Temporary Result Sets"
+        ]
+      ],
+      [
+        "Feature Engineering Techniques",
+        "How do binning, target encoding, and polynomial interaction terms enhance predictive modeling performance?",
+        [
+          "Feature Engineering",
+          "Binning",
+          "Target Encoding",
+          "Interaction Terms",
+          "Frequency Encoding",
+          "Domain Knowledge"
+        ]
+      ],
+      [
+        "Time Series Decomposition & Stationarity",
+        "How do you decompose a time series into trend, seasonality, and residual noise components, and why is stationarity required?",
+        [
+          "Trend Component",
+          "Seasonality Component",
+          "Stationarity",
+          "Differencing",
+          "Autocorrelation",
+          "Additive/Multiplicative Model"
+        ]
+      ],
+      [
+        "Dimensionality Reduction in DS Workflows",
+        "Why is dimensionality reduction critical when analyzing high-dimensional datasets with strong multicollinearity?",
+        [
+          "Dimensionality Reduction",
+          "Feature Selection",
+          "Feature Extraction",
+          "Multi-collinearity",
+          "Data Compression",
+          "Noise Reduction"
+        ]
+      ],
+      [
+        "Data Pipeline Architectures (ETL vs ELT)",
+        "Compare traditional ETL architectures with modern cloud ELT patterns using Data Warehouses.",
+        [
+          "ETL Pipeline",
+          "ELT Pipeline",
+          "Data Transformation Engine",
+          "Data Warehouse Loading",
+          "Staging Area",
+          "Cloud Scalability"
+        ]
+      ],
+      [
+        "Data Warehouse vs Data Lake vs Lakehouse",
+        "Compare Data Warehouses, Data Lakes, and Data Lakehouses regarding schema enforcement and storage flexibility.",
+        [
+          "Data Warehouse",
+          "Data Lake",
+          "Data Lakehouse",
+          "Structured vs Unstructured",
+          "Schema-on-Read",
+          "ACID Storage"
+        ]
+      ],
+      [
+        "Stratified vs Simple Random Sampling",
+        "Why is Stratified Random Sampling preferred over Simple Random Sampling when dealing with imbalanced sub-populations?",
+        [
+          "Stratified Sampling",
+          "Simple Random Sampling",
+          "Subgroup Representation",
+          "Sampling Bias",
+          "Proportional Allocation",
+          "Variance Reduction"
+        ]
+      ],
+      [
+        "Bayesian vs Frequentist Paradigms",
+        "Contrast Frequentist p-value significance testing with Bayesian posterior probability distributions.",
+        [
+          "Bayesian Inference",
+          "Frequentist Statistics",
+          "Prior Beliefs",
+          "Fixed Parameters",
+          "Confidence Interval",
+          "Credible Interval"
+        ]
+      ],
+      [
+        "Feature Selection Strategies",
+        "Compare Filter, Wrapper, and Embedded feature selection methods in data science pipelines.",
+        [
+          "Filter Methods",
+          "Wrapper Methods",
+          "Embedded Methods",
+          "Correlation Threshold",
+          "Recursive Feature Elimination",
+          "L1 Regularization"
+        ]
+      ],
+      [
+        "Class Imbalance Handling Strategies",
+        "How do SMOTE synthetic sampling and class weight adjustments prevent model bias toward majority classes?",
+        [
+          "Class Imbalance",
+          "SMOTE Oversampling",
+          "Tomek Links",
+          "Class Weight Adjustment",
+          "PR-AUC Metric",
+          "Resampling Bias"
+        ]
+      ],
+      [
+        "SQL Query Optimization & Indexing",
+        "How do B-Tree indexes speed up SQL query execution, and when can indexing degrade write performance?",
+        [
+          "Database Index",
+          "B-Tree Index",
+          "Query Execution Plan",
+          "Scan vs Seek",
+          "Composite Index",
+          "JOIN Optimization"
+        ]
+      ],
+      [
+        "Feature Store Architecture in MLOps",
+        "What role does a Feature Store play in maintaining point-in-time feature consistency across offline training and online serving?",
+        [
+          "Feature Store",
+          "Offline Feature Store",
+          "Online Feature Store",
+          "Feature Consistency",
+          "Point-in-Time Joins",
+          "Feature Reuse"
+        ]
+      ],
+      [
+        "Data Drift vs Concept Drift Monitoring",
+        "How do you monitor population stability index (PSI) to detect Data Drift and Concept Drift in deployed models?",
+        [
+          "Data Drift",
+          "Concept Drift",
+          "Covariate Shift",
+          "Population Stability Index",
+          "Model Performance Degradation",
+          "Retraining Triggers"
+        ]
+      ],
+      [
+        "Survival Analysis & Kaplan-Meier Estimator",
+        "How does the Kaplan-Meier estimator construct survival curves while handling right-censored data points?",
+        [
+          "Survival Analysis",
+          "Censored Data",
+          "Kaplan-Meier Estimator",
+          "Survival Function",
+          "Hazard Rate",
+          "Log-Rank Test"
+        ]
+      ],
+      [
+        "Association Rule Mining (Apriori Algorithm)",
+        "Explain how the Apriori algorithm evaluates Support, Confidence, and Lift in Market Basket Analysis.",
+        [
+          "Association Rule Mining",
+          "Apriori Algorithm",
+          "Support Metric",
+          "Confidence Metric",
+          "Lift Metric",
+          "Market Basket Analysis"
+        ]
+      ],
+      [
+        "Multi-Armed Bandits vs A/B Testing",
+        "Why do Multi-Armed Bandit algorithms minimize regret faster than static A/B tests during online experiments?",
+        [
+          "Multi-Armed Bandits",
+          "A/B Testing",
+          "Explore vs Exploit",
+          "Epsilon-Greedy",
+          "Regret Minimization",
+          "Dynamic Allocation"
+        ]
+      ],
+      [
+        "Augmented Dickey-Fuller Stationarity Test",
+        "How does the Augmented Dickey-Fuller (ADF) test verify unit root stationarity in time series datasets?",
+        [
+          "Augmented Dickey-Fuller Test",
+          "Unit Root Test",
+          "Stationarity Hypothesis",
+          "Lag Order",
+          "Differencing Level",
+          "p-value Threshold"
+        ]
+      ],
+      [
+        "SQL Self-Joins & Hierarchical Data",
+        "How do SQL self-joins and recursive CTEs query parent-child hierarchical organization data?",
+        [
+          "Self-Join",
+          "Table Aliasing",
+          "Hierarchical Data",
+          "Parent-Child Relationship",
+          "Recursive CTE",
+          "Tree Traversal"
+        ]
+      ]
+    ],
+    "hard": [
+      [
+        "Causal Inference & Propensity Score Matching",
+        "Explain how Propensity Score Matching eliminates confounding bias to estimate Average Treatment Effects in observational studies.",
+        [
+          "Causal Inference",
+          "Propensity Score Matching",
+          "Confounding Bias",
+          "Counterfactual",
+          "Average Treatment Effect",
+          "Selection Bias"
+        ]
+      ],
+      [
+        "Advanced Time Series (SARIMAX & GARCH)",
+        "How do SARIMAX model exogenous factors while GARCH models time-varying volatility clusters in financial data?",
+        [
+          "SARIMAX",
+          "GARCH Model",
+          "Seasonal Autoregressive",
+          "Volatility Modeling",
+          "Exogenous Variables",
+          "AIC/BIC Criteria"
+        ]
+      ],
+      [
+        "A/B Testing Variance Reduction (CUPED)",
+        "How does the CUPED technique use pre-experiment covariate data to reduce variance and increase A/B test sensitivity?",
+        [
+          "CUPED",
+          "Controlled-Experiments Using Pre-Experiment Data",
+          "Variance Reduction",
+          "Pre-Experiment Covariate",
+          "Sample Efficiency",
+          "Delta Method"
+        ]
+      ],
+      [
+        "Multiple Testing Correction (FDR)",
+        "Contrast Bonferroni family-wise error rate control with the Benjamini-Hochberg False Discovery Rate (FDR) procedure.",
+        [
+          "Multiple Testing Problem",
+          "Family-Wise Error Rate",
+          "Bonferroni Correction",
+          "False Discovery Rate",
+          "Benjamini-Hochberg Procedure",
+          "Adjusted p-values"
+        ]
+      ],
+      [
+        "Apache Spark Architecture & Catalyst Optimizer",
+        "Detail how Apache Spark's Catalyst Optimizer transforms DataFrame code into optimized physical RDD execution plans.",
+        [
+          "Apache Spark",
+          "Resilient Distributed Dataset",
+          "Catalyst Optimizer",
+          "Tungsten Execution Engine",
+          "Shuffle Phase",
+          "DataFrame API"
+        ]
+      ],
+      [
+        "Parquet File Internals & Delta Lake ACID",
+        "How do Parquet columnar row-group metadata enable predicate pushdown, and how does Delta Lake maintain ACID logs?",
+        [
+          "Parquet Storage",
+          "Columnar Format",
+          "Row Group",
+          "Predicate Pushdown",
+          "Delta Lake Log",
+          "ACID Transactions"
+        ]
+      ],
+      [
+        "Advanced SQL Join Algorithms",
+        "Compare Hash Join, Sort-Merge Join, and Nested Loop Join execution mechanics inside relational database query engines.",
+        [
+          "Hash Join",
+          "Sort-Merge Join",
+          "Nested Loop Join",
+          "Memory Allocation",
+          "Build vs Probe Phase",
+          "Query Planner"
+        ]
+      ],
+      [
+        "Markov Chain Monte Carlo (MCMC) Sampling",
+        "Explain how the Metropolis-Hastings algorithm constructs a Markov chain to sample from complex posterior distributions.",
+        [
+          "Markov Chain Monte Carlo",
+          "Metropolis-Hastings",
+          "Gibbs Sampling",
+          "Stationary Distribution",
+          "Burn-in Period",
+          "Convergence Diagnostics"
+        ]
+      ],
+      [
+        "Non-parametric Bootstrapping Math",
+        "Detail the mathematical mechanics of non-parametric empirical bootstrapping to construct BCa confidence intervals.",
+        [
+          "Non-parametric Bootstrap",
+          "Empirical Distribution",
+          "Resampling with Replacement",
+          "Bootstrap Confidence Interval",
+          "Standard Error",
+          "Bias Correction"
+        ]
+      ],
+      [
+        "Bayesian Hierarchical Modeling in PyMC",
+        "How do Bayesian hierarchical models use partial pooling to share statistical strength across groups in PyMC?",
+        [
+          "Hierarchical Model",
+          "Hyperparameters",
+          "Partial Pooling",
+          "PyMC Framework",
+          "MCMC Trace",
+          "Group-Level Variance"
+        ]
+      ],
+      [
+        "Recommender Systems Matrix Factorization (ALS)",
+        "Formulate Alternating Least Squares (ALS) matrix factorization for collaborative filtering with implicit feedback.",
+        [
+          "Matrix Factorization",
+          "Alternating Least Squares",
+          "Explicit vs Implicit Feedback",
+          "Latent Factors",
+          "Cold Start Problem",
+          "RMSE Optimization"
+        ]
+      ],
+      [
+        "High-Dimensional Outlier Detection (Isolation Forest)",
+        "Derive the anomaly scoring function of Isolation Forests based on average random partitioning tree path lengths.",
+        [
+          "Isolation Forest",
+          "Random Partitioning",
+          "Path Length",
+          "Anomaly Score",
+          "High-Dimensional Data",
+          "Contamination Rate"
+        ]
+      ],
+      [
+        "Feature Store Point-in-Time Join Logic",
+        "Explain how Point-in-Time 'As-Of' joins in feature stores prevent data leakage during offline model training dataset creation.",
+        [
+          "Point-in-Time Join",
+          "As-of Join",
+          "Data Leakage Prevention",
+          "Timestamp Alignment",
+          "Offline Feature Store",
+          "Feature Replay"
+        ]
+      ],
+      [
+        "Cox Proportional Hazards Math",
+        "Derive the partial likelihood function of the Cox Proportional Hazards model and state the proportional hazards assumption.",
+        [
+          "Cox Proportional Hazards",
+          "Hazard Ratio",
+          "Partial Likelihood",
+          "Baseline Hazard",
+          "Proportionality Assumption",
+          "Covariate Effects"
+        ]
+      ],
+      [
+        "Graph Analytics (PageRank & Centrality)",
+        "Derive the PageRank power iteration equation with damping factor, and contrast it with Betweenness Centrality.",
+        [
+          "PageRank Algorithm",
+          "Betweenness Centrality",
+          "Eigenvector Centrality",
+          "Adjacency Matrix",
+          "Damping Factor",
+          "Graph Connectivity"
+        ]
+      ],
+      [
+        "Streaming Anomaly Detection via Kalman Filter",
+        "How does a Kalman Filter update state estimate error covariance matrices to flag streaming time series anomalies?",
+        [
+          "Kalman Filter",
+          "State-Space Model",
+          "Prediction-Update Cycle",
+          "Noise Covariance",
+          "Real-Time Streaming",
+          "Anomaly Threshold"
+        ]
+      ],
+      [
+        "Information Theory: KL Divergence & Mutual Info",
+        "Formulate Kullback-Leibler (KL) Divergence and Mutual Information, demonstrating their relationship to Shannon Entropy.",
+        [
+          "Entropy",
+          "Kullback-Leibler Divergence",
+          "Mutual Information",
+          "Relative Entropy",
+          "Information Gain",
+          "Symmetry Loss"
+        ]
+      ],
+      [
+        "Extreme Value Theory for Rare Events",
+        "Explain how the Generalized Extreme Value (GEV) distribution models block maxima in rare event risk assessment.",
+        [
+          "Extreme Value Theory",
+          "Generalized Extreme Value Distribution",
+          "Block Maxima",
+          "Peaks Over Threshold",
+          "Tail Risk",
+          "Return Period"
+        ]
+      ],
+      [
+        "Differential Privacy Guarantees",
+        "Formulate (epsilon, delta)-differential privacy and explain how the Laplace mechanism bounds individual data privacy loss.",
+        [
+          "Differential Privacy",
+          "DP-SGD",
+          "Gradient Clipping",
+          "Gaussian Noise Addition",
+          "Privacy Budget Epsilon",
+          "R\u00e9nyi DP"
+        ]
+      ],
+      [
+        "Uplift Modeling for Targeted Interventions",
+        "How do two-model approaches and class transformation methods quantify incremental treatment lift in causal ML?",
+        [
+          "Uplift Modeling",
+          "Two-Model Approach",
+          "Class Transformation",
+          "Treatment vs Control Effect",
+          "Incremental Impact",
+          "Qini Curve"
+        ]
+      ],
+      [
+        "Multi-Armed Bandit UCB1 & Thompson Sampling",
+        "Formulate the Upper Confidence Bound (UCB1) action selection rule and contrast it with Bayesian Thompson Sampling.",
+        [
+          "Upper Confidence Bound UCB1",
+          "Thompson Sampling",
+          "Beta Distribution Prior",
+          "Regret Bound",
+          "Multi-Armed Bandit",
+          "Exploration Bonus"
+        ]
+      ],
+      [
+        "Temporal Fusion Transformers for Forecasting",
+        "Analyze the architecture of Temporal Fusion Transformers (TFT), specifically static covariate encoders and temporal self-attention.",
+        [
+          "Temporal Fusion Transformer",
+          "Multi-Horizon Forecasting",
+          "Variable Selection Network",
+          "Static Covariates",
+          "Temporal Self-Attention",
+          "Quantile Loss"
+        ]
+      ],
+      [
+        "Spatial Data Science & Moran's I",
+        "How does Moran's I measure spatial autocorrelation using spatial weights matrices in geographic data science?",
+        [
+          "Spatial Autocorrelation",
+          "Moran's I",
+          "H3 Spatial Index",
+          "Spatial Weights Matrix",
+          "Geographic Clustering",
+          "Geospatial Vectors"
+        ]
+      ],
+      [
+        "Automated Schema Drift & Great Expectations",
+        "How does the Great Expectations framework profile data batches to automatically detect schema drift and pipeline anomalies?",
+        [
+          "Schema Drift",
+          "Great Expectations Framework",
+          "Data Validation Suite",
+          "Expectation Suite",
+          "Automated Profiling",
+          "Pipeline Halting"
+        ]
+      ],
+      [
+        "Causal Directed Acyclic Graphs (DAGs)",
+        "Explain how d-separation rules in causal DAGs identify confounders, colliders, and mediators during causal estimation.",
+        [
+          "Directed Acyclic Graph",
+          "Confounder",
+          "Collider",
+          "Mediator",
+          "d-separation",
+          "Do-Calculus"
+        ]
+      ]
+    ]
+  }
+}

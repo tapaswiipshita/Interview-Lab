@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INTERVIEW LAB — Technical Interview Evaluation System</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css?v=2.1.0">
+</head>
+<body>
+
+  <!-- Top Sticky Navigation -->
+  <nav class="site-nav">
+    <div class="container nav-inner">
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <a href="#" class="brand-link" id="navBrandLink">
+          <span class="logo-glyph" aria-hidden="true"></span>
+          <span>INTERVIEW LAB</span>
+        </a>
+        <span class="brand-tagline-nav">Practice with purpose. Improve with evidence.</span>
+      </div>
+
+      <ul class="nav-links" id="landingNavLinks">
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#features">Features</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <span class="badge" id="systemHealthBadge" title="System Status">
+          <span class="badge-dot" id="systemHealthDot"></span>
+          <span id="systemHealthText">Connecting</span>
+        </span>
+        <button class="btn btn-primary btn-sm" id="navStartBtn">Start Interview</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==============================================================================
+       VIEW 1: LANDING PAGE
+       ============================================================================== -->
+  <main class="view-section active" id="viewLanding">
+    
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow hero-eyebrow">Technical Evaluation Platform</span>
+          <h1 class="hero-headline">Your next interview starts with better preparation.</h1>
+          <p class="hero-subtext">
+            Practice technical interviews tailored to your skills, answer questions by voice, and receive structured feedback on what you know and what to improve.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-primary btn-lg" id="heroStartBtn">Start Mock Interview</button>
+            <a href="#how-it-works" class="btn btn-secondary btn-lg">Explore How It Works</a>
+          </div>
+
+          <div class="hero-meta-strip">
+            <div class="meta-item">
+              <span class="meta-val">300</span>
+              <span class="meta-lbl">Curated Questions</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-val">4</span>
+              <span class="meta-lbl">Core Disciplines</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-val">100%</span>
+              <span class="meta-lbl">Deterministic Verification</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Realistic Product Preview (Matching Real Interface) -->
+        <div class="product-preview" aria-label="Sample Interview Evaluation Interface Preview">
+          <div class="preview-topbar">
+            <div class="preview-dots">
+              <span class="preview-dot"></span>
+              <span class="preview-dot"></span>
+              <span class="preview-dot"></span>
+            </div>
+            <span class="badge badge-outline mono">Web Development · Medium</span>
+          </div>
+          <div class="preview-body">
+            <div class="preview-question-meta">
+              <span>Question 03 of 05</span>
+              <span>Topic: React Virtual DOM</span>
+            </div>
+            <h3 class="preview-question-title">
+              Explain how React's Fiber reconciliation algorithm updates the real DOM and schedules high-priority updates.
+            </h3>
+
+            <div class="preview-metrics-row">
+              <div class="preview-metric-box">
+                <span class="metric-num">92 / 100</span>
+                <span class="metric-lbl">Technical Score</span>
+              </div>
+              <div class="preview-metric-box">
+                <span class="metric-num">100%</span>
+                <span class="metric-lbl">Concept Coverage</span>
+              </div>
+              <div class="preview-metric-box">
+                <span class="metric-num">84%</span>
+                <span class="metric-lbl">Semantic Match</span>
+              </div>
+            </div>
+
+            <div class="preview-concepts-list">
+              <div class="preview-concept-row">
+                <svg class="preview-concept-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M3 8.5l3.5 3.5 6.5-7.5"/>
+                </svg>
+                <span>Fiber tree decomposition into incremental units of work</span>
+              </div>
+              <div class="preview-concept-row">
+                <svg class="preview-concept-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M3 8.5l3.5 3.5 6.5-7.5"/>
+                </svg>
+                <span>Two-phase process: interruptible render phase vs synchronous commit phase</span>
+              </div>
+              <div class="preview-concept-row">
+                <svg class="preview-concept-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M3 8.5l3.5 3.5 6.5-7.5"/>
+                </svg>
+                <span>Time-slicing prioritization via requestIdleCallback/MessageChannel</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="section-wrapper" id="how-it-works">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Methodology</span>
+          <h2 class="section-title">How It Works</h2>
+          <p class="section-desc">A structured assessment workflow designed to provide clear, actionable evidence of technical competency.</p>
+        </div>
+
+        <div class="steps-grid">
+          <div class="step-item">
+            <span class="step-index">01</span>
+            <h3 class="step-heading">Upload Your Resume</h3>
+            <p class="step-body">Extract relevant skills, projects, and domain experience to personalize question selection and align interview depth.</p>
+          </div>
+          <div class="step-item">
+            <span class="step-index">02</span>
+            <h3 class="step-heading">Complete Your Interview</h3>
+            <p class="step-body">Answer technical questions through your microphone with real-time speech transcription and transcript review.</p>
+          </div>
+          <div class="step-item">
+            <span class="step-index">03</span>
+            <h3 class="step-heading">Understand Your Performance</h3>
+            <p class="step-body">Review itemized scores, missing technical concepts, detected misconceptions, and prioritized study areas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section-wrapper" id="features">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Capabilities</span>
+          <h2 class="section-title">Engineered for Technical Depth</h2>
+          <p class="section-desc">Rigorous evaluation based on atomic technical assertions rather than generic keyword matching.</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-cell">
+            <div class="feature-icon-wrap" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+            </div>
+            <h3 class="feature-heading">Resume-Based Personalization</h3>
+            <p class="feature-body">Parses PDF and DOCX files to isolate verified skills, project frameworks, and recommended technical domains.</p>
+          </div>
+
+          <div class="feature-cell">
+            <div class="feature-icon-wrap" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <h3 class="feature-heading">Domain & Difficulty Calibration</h3>
+            <p class="feature-body">Select from Artificial Intelligence, Machine Learning, Web Development, or Data Science across Easy, Medium, and Hard tiers.</p>
+          </div>
+
+          <div class="feature-cell">
+            <div class="feature-icon-wrap" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+                <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                <line x1="12" y1="19" x2="12" y2="23"></line>
+                <line x1="8" y1="23" x2="16" y2="23"></line>
+              </svg>
+            </div>
+            <h3 class="feature-heading">Voice-Based Interviews</h3>
+            <p class="feature-body">Natural spoken assessment via high-accuracy Whisper transcription or native browser Web Speech API fallback.</p>
+          </div>
+
+          <div class="feature-cell">
+            <div class="feature-icon-wrap" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+            </div>
+            <h3 class="feature-heading">Technical Answer Evaluation</h3>
+            <p class="feature-body">Combines calibrated cosine similarity with atomic expected concept matching to eliminate keyword hallucination.</p>
+          </div>
+
+          <div class="feature-cell">
+            <div class="feature-icon-wrap" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+            </div>
+            <h3 class="feature-heading">Question-Level Feedback</h3>
+            <p class="feature-body">Immediate diagnostic audit displaying covered assertions, omitted concepts, and detected technical misconceptions.</p>
+          </div>
+
+          <div class="feature-cell">
+            <div class="feature-icon-wrap" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+            </div>
+            <h3 class="feature-heading">Topic-Wise Performance Analysis</h3>
+            <p class="feature-body">Aggregates performance across syllabus topics and delivers a prioritized study curriculum with follow-up questions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Closing Callout -->
+    <section class="cta-section">
+      <div class="container cta-box">
+        <div>
+          <h2 class="cta-headline">Know what to improve before your next interview.</h2>
+          <p class="cta-sub">Begin a calibrated technical assessment session in seconds.</p>
+        </div>
+        <button class="btn btn-primary btn-lg" id="closingStartBtn">Start Interview</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <span class="footer-brand">INTERVIEW LAB</span>
+          <p>Technical mock interview evaluation framework powered by deterministic concept coverage analysis.</p>
+        </div>
+        <div>
+          <span>Architecture Version 2.0.0</span>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- ==============================================================================
+       VIEW 2: INTERVIEW SETUP DASHBOARD
+       ============================================================================== -->
+  <main class="view-section" id="viewSetup">
+    <div class="container setup-wrapper">
+      
+      <div class="setup-header-strip">
+        <div>
+          <span class="eyebrow">Configuration</span>
+          <h1>Interview Setup</h1>
+        </div>
+        <button class="btn btn-subtle btn-sm" id="setupBackToLandingBtn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+          </svg>
+          Return to Overview
+        </button>
+      </div>
+
+      <div class="setup-layout">
+        
+        <!-- Left Column: Resume Upload & Candidate Profile -->
+        <div class="setup-column">
+          <h2 class="setup-panel-heading">
+            <span>01 — Candidate Profile</span>
+            <span class="badge" id="profileStatusBadge">No Resume Attached</span>
+          </h2>
+
+          <!-- Upload Dropzone -->
+          <div class="upload-dropzone" id="uploadDropzone">
+            <svg class="dropzone-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="17 8 12 3 7 8"></polyline>
+              <line x1="12" y1="3" x2="12" y2="15"></line>
+            </svg>
+            <div class="dropzone-title">Upload your resume</div>
+            <div class="dropzone-subtitle">Drag and drop file here, or click to browse</div>
+            <button class="btn btn-secondary btn-sm" id="browseFileBtn" type="button">Browse Files</button>
+            <input type="file" id="resumeFileInput" class="file-input-hidden" accept=".pdf,.docx,.doc,.txt">
+            <div style="margin-top: 10px; font-size: 0.72rem; color: var(--text-muted);">
+              Accepted formats: PDF, DOCX, TXT (Max 10MB)
+            </div>
+          </div>
+
+          <!-- Active File Card -->
+          <div class="file-uploaded-card" id="fileUploadedCard">
+            <div class="file-info-group">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+              </svg>
+              <div>
+                <div class="file-name-text" id="uploadedFileName">resume.pdf</div>
+                <div class="file-size-text" id="uploadedFileSize">-- KB</div>
+              </div>
+            </div>
+            <div style="display: flex; gap: 8px;">
+              <button class="btn btn-subtle btn-sm" id="replaceFileBtn">Replace</button>
+              <button class="btn btn-subtle btn-sm" id="removeFileBtn">Remove</button>
+            </div>
+          </div>
+
+          <!-- Parsed Profile Box -->
+          <div class="parsed-profile-panel" id="parsedProfilePanel">
+            <div class="parsed-candidate-header">
+              <div>
+                <span class="candidate-name-display" id="profileCandidateName">Candidate</span>
+                <span class="provenance-tag" id="profileProvenanceTag">Extracted from resume</span>
+              </div>
+              <span class="badge badge-dark mono" id="profileSuggestedDomain">Web Development</span>
+            </div>
+
+            <div style="margin-bottom: 12px;">
+              <div class="parsed-field-label">Verified Technical Skills (<span id="profileSkillsCount">0</span>)</div>
+              <div class="tags-cluster" id="profileSkillsContainer">
+                <!-- Skill tags injected by JS -->
+              </div>
+            </div>
+
+            <div id="profileProjectsSection" style="margin-bottom: 12px;">
+              <div class="parsed-field-label">Projects & Experience</div>
+              <div id="profileProjectsList" style="font-size: 0.8rem; color: var(--text-secondary); line-height: 1.45;"></div>
+            </div>
+          </div>
+
+          <!-- Quick Actions / Demo Profile Fallback -->
+          <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 4px;">
+            <button class="btn btn-subtle btn-sm" id="useDemoProfileBtn">Load Sample Profile (Alex Rivera)</button>
+            <button class="btn btn-subtle btn-sm" id="clearProfileBtn" style="display: none;">Clear Data</button>
+          </div>
+        </div>
+
+        <!-- Right Column: Configuration Selectors -->
+        <div class="setup-column">
+          <h2 class="setup-panel-heading">
+            <span>02 — Interview Parameters</span>
+            <span class="badge badge-outline">Calibrated</span>
+          </h2>
+
+          <!-- Domain Selection -->
+          <div class="config-group">
+            <label class="config-label">Technical Discipline</label>
+            <div class="segmented-control" id="domainSelector">
+              <button class="segment-btn active" data-domain="Artificial Intelligence">AI</button>
+              <button class="segment-btn" data-domain="Machine Learning">ML</button>
+              <button class="segment-btn" data-domain="Web Development">Web Dev</button>
+              <button class="segment-btn" data-domain="Data Science">Data Science</button>
+            </div>
+          </div>
+
+          <!-- Difficulty Selection -->
+          <div class="config-group">
+            <label class="config-label">Difficulty Tier</label>
+            <div class="segmented-control three-col" id="difficultySelector">
+              <button class="segment-btn" data-difficulty="easy">Easy</button>
+              <button class="segment-btn active" data-difficulty="medium">Medium</button>
+              <button class="segment-btn" data-difficulty="hard">Hard</button>
+            </div>
+          </div>
+
+          <!-- Question Count -->
+          <div class="config-group">
+            <label class="config-label">Number of Questions</label>
+            <div class="segmented-control three-col" id="questionCountSelector">
+              <button class="segment-btn active" data-count="5">5 Questions</button>
+              <button class="segment-btn" data-count="10">10 Questions</button>
+              <button class="segment-btn" data-count="15">15 Questions</button>
+            </div>
+          </div>
+
+          <!-- Selection Summary -->
+          <div class="config-summary-card">
+            <div class="summary-row">
+              <span class="label">Discipline</span>
+              <span class="value" id="summaryDomain">Artificial Intelligence</span>
+            </div>
+            <div class="summary-row">
+              <span class="label">Difficulty</span>
+              <span class="value" id="summaryDifficulty">Medium</span>
+            </div>
+            <div class="summary-row">
+              <span class="label">Questions</span>
+              <span class="value" id="summaryQuestions">5 Questions</span>
+            </div>
+            <div class="summary-row">
+              <span class="label">Personalization</span>
+              <span class="value" id="summaryPersonalization">General Benchmark</span>
+            </div>
+          </div>
+
+          <!-- Generate Action -->
+          <button class="btn btn-primary btn-lg" id="generateInterviewBtn" style="width: 100%;">
+            <span>Generate Interview</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </button>
+          
+          <div id="setupErrorNotice" style="display: none; font-size: 0.8rem; color: var(--text-primary); border: 1px solid var(--border-strong); padding: 8px 12px; border-radius: var(--radius-sm);"></div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- ==============================================================================
+       VIEW 3: VOICE INTERVIEW INTERFACE
+       ============================================================================== -->
+  <main class="view-section" id="viewInterview">
+    <div class="interview-viewport">
+      
+      <!-- Interview Top Bar -->
+      <div class="interview-topbar">
+        <div class="interview-context-meta">
+          <span class="mono" style="font-weight: 600;">INTERVIEW LAB</span>
+          <span style="color: var(--border-medium);">/</span>
+          <span class="badge badge-outline" id="roomDomainBadge">Web Development</span>
+          <span class="badge badge-outline" id="roomDifficultyBadge">Medium</span>
+        </div>
+        <div>
+          <button class="btn btn-secondary btn-sm" id="exitInterviewBtn">Exit Interview</button>
+        </div>
+      </div>
+
+      <!-- Linear Progress Rail -->
+      <div class="progress-rail">
+        <div class="progress-thumb" id="interviewProgressThumb"></div>
+      </div>
+
+      <!-- Main Question Stage -->
+      <div class="container container-reading interview-main-stage">
+        
+        <div class="question-stage-meta">
+          <span class="mono" id="questionCounterText">Question 1 of 5</span>
+          <span id="questionTopicTag" class="mono" style="text-transform: uppercase;">Topic</span>
+        </div>
+
+        <h2 class="question-stage-headline" id="interviewQuestionText">
+          Loading question prompt...
+        </h2>
+
+        <!-- Recording Workspace -->
+        <div class="recording-workspace">
+          
+          <div class="recording-header-row">
+            <div class="recording-status-indicator">
+              <span class="status-pulsing-dot" id="recStatusDot"></span>
+              <span id="recStatusText">Microphone Ready</span>
+            </div>
+            <div class="recording-clock" id="recTimerClock">00:00</div>
+          </div>
+
+          <!-- Minimalist Monochrome Waveform -->
+          <div class="monochrome-waveform" id="recWaveformContainer" aria-label="Audio level indicator">
+            <!-- 32 bars rendered by JS -->
+          </div>
+
+          <!-- Microphone Error Notice -->
+          <div class="mic-error-notice" id="micErrorNotice">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="8" x2="12" y2="12"></line>
+              <line x1="12" y1="16" x2="12.01" y2="16"></line>
+            </svg>
+            <span id="micErrorMsg">Microphone permission denied. You can type your answer below or check browser settings.</span>
+          </div>
+
+          <!-- Controls Action Bar -->
+          <div class="recorder-actions-bar">
+            <button class="btn btn-primary" id="startRecordingBtn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+                <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+              </svg>
+              <span>Start Recording</span>
+            </button>
+
+            <button class="btn btn-danger" id="stopRecordingBtn" style="display: none;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <rect x="6" y="6" width="12" height="12"></rect>
+              </svg>
+              <span>Stop Recording</span>
+            </button>
+
+            <button class="btn btn-secondary btn-sm" id="retryRecordingBtn" style="display: none;">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M23 4v6h-6"></path>
+                <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+              </svg>
+              <span>Re-record</span>
+            </button>
+          </div>
+
+          <!-- Audio Playback Preview (Hidden until recorded) -->
+          <div class="audio-player-wrap" id="audioPlayerWrap">
+            <audio id="recordedAudioElement" controls></audio>
+          </div>
+
+          <!-- Transcript Review Area -->
+          <div class="transcript-box">
+            <div class="transcript-label-bar">
+              <span>Transcribed Candidate Response</span>
+              <span id="sttProviderBadge" class="mono" style="font-size: 0.7rem;">Speech API Active</span>
+            </div>
+            <textarea
+              class="transcript-textarea"
+              id="answerTranscriptInput"
+              placeholder="Your spoken words will appear here in real-time. You may also edit or manually type technical terms before submitting..."
+            ></textarea>
+            <div class="transcript-hint">
+              Review and adjust any domain-specific terminology before submitting for evaluation.
+            </div>
+          </div>
+
+          <div style="display: flex; justify-content: flex-end; padding-top: 4px;">
+            <button class="btn btn-primary btn-lg" id="submitAnswerBtn">
+              <span>Submit Answer for Evaluation</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Post-Submission Question Feedback Card -->
+        <div class="feedback-card" id="questionFeedbackCard">
+          
+          <div class="feedback-header">
+            <div class="feedback-title">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span>Evaluation Audit</span>
+            </div>
+            <div class="feedback-score-tag" id="fbScoreTag">86 / 100 · Good</div>
+          </div>
+
+          <div class="feedback-body">
+            
+            <div class="metrics-audit-strip">
+              <div class="metric-audit-item">
+                <span class="metric-audit-name">Concept Coverage</span>
+                <span class="metric-audit-value" id="fbCoverageVal">80%</span>
+                <span class="metric-audit-subtext">Verified atomic technical assertions</span>
+              </div>
+              <div class="metric-audit-item">
+                <span class="metric-audit-name">Semantic Similarity</span>
+                <span class="metric-audit-value" id="fbSimilarityVal">76%</span>
+                <span class="metric-audit-subtext">Baseline contextual similarity (TF-IDF alignment)</span>
+              </div>
+            </div>
+
+            <div class="feedback-sections-grid">
+              <!-- Covered Concepts -->
+              <div>
+                <h4 class="fb-subheading">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  What You Got Right
+                </h4>
+                <ul class="concept-bullet-list" id="fbCoveredList">
+                  <!-- Filled by JS -->
+                </ul>
+              </div>
+
+              <!-- Missing Concepts -->
+              <div>
+                <h4 class="fb-subheading">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                  </svg>
+                  What Needs Improvement
+                </h4>
+                <ul class="concept-bullet-list" id="fbMissingList">
+                  <!-- Filled by JS -->
+                </ul>
+              </div>
+            </div>
+
+            <!-- Warnings / Misconceptions if any -->
+            <div id="fbMisconceptionsSection" style="display: none; padding: 10px 14px; background: var(--bg-surface); border: 1px solid var(--border-medium); border-radius: var(--radius-xs); font-size: 0.82rem;">
+              <strong>Detected Inaccuracy:</strong> <span id="fbMisconceptionsText"></span>
+            </div>
+
+            <!-- Model Reference Answer (Only visible post-submission) -->
+            <div class="model-answer-reveal">
+              <details>
+                <summary class="model-answer-summary">View Reference Benchmark Answer</summary>
+                <div class="model-answer-content" id="fbModelAnswerText">
+                  <!-- Injected by JS -->
+                </div>
+              </details>
+            </div>
+
+            <div class="feedback-footer-nav">
+              <button class="btn btn-primary" id="nextQuestionBtn">
+                <span id="nextQuestionBtnText">Proceed to Next Question</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- ==============================================================================
+       VIEW 4: FINAL INTERVIEW REPORT
+       ============================================================================== -->
+  <main class="view-section" id="viewReport">
+    <div class="container container-narrow report-wrapper">
+      
+      <div class="report-document" id="printableReportDoc">
+        
+        <!-- Header & Executive Summary -->
+        <div class="report-header-section">
+          <div class="report-title-block">
+            <span class="eyebrow">Assessment Record</span>
+            <h1>Technical Interview Report</h1>
+            <p style="font-size: 0.9rem; color: var(--text-secondary);">
+              Generated by INTERVIEW LAB Automated Evaluation System
+            </p>
+
+            <div class="report-meta-grid">
+              <div>
+                <span class="eyebrow" style="font-size: 0.68rem;">Candidate</span>
+                <div style="font-weight: 600;" id="reportCandidateName">Alex Rivera</div>
+              </div>
+              <div>
+                <span class="eyebrow" style="font-size: 0.68rem;">Discipline</span>
+                <div style="font-weight: 600;" id="reportDomain">Web Development</div>
+              </div>
+              <div>
+                <span class="eyebrow" style="font-size: 0.68rem;">Difficulty</span>
+                <div style="font-weight: 600; text-transform: capitalize;" id="reportDifficulty">Medium</div>
+              </div>
+              <div>
+                <span class="eyebrow" style="font-size: 0.68rem;">Session ID</span>
+                <div class="mono" style="font-size: 0.8rem;" id="reportSessionId">fdc12114</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="report-score-box">
+            <div class="score-huge-num" id="reportOverallScore">84.2</div>
+            <div class="score-tier-label" id="reportOverallTier">Good Performance</div>
+            <span style="font-size: 0.72rem; color: var(--text-muted); margin-top: 4px;">
+              Completed <span id="reportCompletedCount">5</span> Questions
+            </span>
+          </div>
+        </div>
+
+        <!-- Topic Breakdown Bar Chart -->
+        <div class="report-section">
+          <h3 class="report-section-title">Topic-Wise Performance</h3>
+          <div class="topic-bars-table" id="reportTopicBars">
+            <!-- Dynamic Topic Rows generated by JS -->
+          </div>
+        </div>
+
+        <!-- Strengths vs Areas to Improve -->
+        <div class="report-section">
+          <div class="diagnostic-grid">
+            <div class="diagnostic-card">
+              <h4 class="diagnostic-title">Strong Areas</h4>
+              <ul class="diagnostic-list" id="reportStrongAreas">
+                <!-- Injected by JS -->
+              </ul>
+            </div>
+            <div class="diagnostic-card">
+              <h4 class="diagnostic-title">Areas to Improve</h4>
+              <ul class="diagnostic-list" id="reportWeakAreas">
+                <!-- Injected by JS -->
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Preparation Recommendations -->
+        <div class="report-section">
+          <h3 class="report-section-title">Preparation Recommendations</h3>
+          <div style="display: flex; flex-direction: column; gap: 8px;" id="reportRecommendationsList">
+            <!-- Injected by JS -->
+          </div>
+        </div>
+
+        <!-- Question History Table -->
+        <div class="report-section">
+          <h3 class="report-section-title">Question History</h3>
+          <div class="data-table-wrap">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th style="width: 45px;">#</th>
+                  <th>Topic</th>
+                  <th style="width: 80px; text-align: right;">Score</th>
+                  <th style="width: 100px; text-align: center;">Category</th>
+                  <th style="width: 90px; text-align: right;">Details</th>
+                </tr>
+              </thead>
+              <tbody id="reportHistoryTableBody">
+                <!-- Rows injected by JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="report-action-buttons">
+          <button class="btn btn-secondary" id="reportPrintBtn">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 6 2 18 2 18 9"></polyline>
+              <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+              <rect x="6" y="14" width="12" height="8"></rect>
+            </svg>
+            <span>Print Report</span>
+          </button>
+
+          <div style="display: flex; gap: 12px;">
+            <button class="btn btn-primary" id="reportRestartBtn">
+              <span>Start New Interview</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ==============================================================================
+       MODAL: QUESTION DETAIL INSPECTOR
+       ============================================================================== -->
+  <div class="modal-backdrop" id="questionDetailModal">
+    <div class="modal-dialog">
+      <div class="modal-topbar">
+        <span class="modal-title" id="modalQuestionTitle">Question Details</span>
+        <button class="btn btn-subtle btn-sm" id="closeModalBtn" aria-label="Close dialog">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <div>
+          <div class="eyebrow" style="margin-bottom: 4px;">Question Prompt</div>
+          <p id="modalPrompt" style="font-weight: 500; color: var(--text-primary);"></p>
+        </div>
+
+        <div>
+          <div class="eyebrow" style="margin-bottom: 4px;">Candidate's Transcribed Answer</div>
+          <div id="modalTranscribed" style="padding: 10px; background: var(--bg-surface); border-radius: var(--radius-xs); font-size: 0.85rem; line-height: 1.5;"></div>
+        </div>
+
+        <div>
+          <div class="eyebrow" style="margin-bottom: 4px;">Reference Model Answer</div>
+          <div id="modalModelAnswer" style="padding: 10px; background: var(--bg-surface); border-radius: var(--radius-xs); font-size: 0.85rem; line-height: 1.5;"></div>
+        </div>
+
+        <div>
+          <div class="eyebrow" style="margin-bottom: 6px;">Concept Evaluation Breakdown</div>
+          <div id="modalConceptsBreakdown" style="font-size: 0.85rem;"></div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary btn-sm" id="modalCloseActionBtn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/app.js?v=2.1.0"></script>
+</body>
+</html>
